@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.14.0 on win32)" generated="2026-02-21T23:58:54.048113" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot Framework Capstone - E-Commerce Suite" source="C:\Users\HP\PyCharmMiscProject\robot-framework\tests\end_to_end.robot">
+<test id="s1-t1" name="User1" line="22">
+<kw name="Start User Session" type="SETUP">
+<kw name="Open Application" owner="common">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:58:54.250387" level="INFO">Opening browser 'chrome' to base url 'https://practice.automationtesting.in/'.</msg>
+<arg>${URL}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:58:54.250219" elapsed="15.488891"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-21T23:59:09.739326" elapsed="0.021725"/>
+</kw>
+<kw name="Set Selenium Timeout" owner="SeleniumLibrary">
+<arg>${TIMEOUT}</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" start="2026-02-21T23:59:09.761382" elapsed="0.001786"/>
+</kw>
+<arg>${BROWSER}</arg>
+<status status="PASS" start="2026-02-21T23:58:54.249683" elapsed="15.513632"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:58:54.249432" elapsed="15.513948"/>
+</kw>
+<kw name="Ecommerce Flow">
+<kw name="Registration Validation">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:09.764930" level="INFO">Opening url 'https://practice.automationtesting.in/my-account/'</msg>
+<arg>${BASE_URL}/my-account/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:59:09.764784" elapsed="1.291860"/>
+</kw>
+<kw name="Handle Ads Popup" owner="common">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:11.057885" level="INFO">Clicking element 'css:button[aria-label='Close']'.</msg>
+<msg time="2026-02-21T23:59:11.196785" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-21T23:59:11.197084" level="FAIL">Element with locator 'css:button[aria-label='Close']' not found.</msg>
+<arg>css:button[aria-label='Close']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-02-21T23:59:11.057461" elapsed="0.143791">Element with locator 'css:button[aria-label='Close']' not found.</status>
+</kw>
+<arg>Click Element</arg>
+<arg>css:button[aria-label='Close']</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-21T23:59:11.057264" elapsed="0.144162"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:11.203918" level="INFO">Executing JavaScript:
+document.body.classList.remove('modal-open')
+Without any arguments.</msg>
+<arg>document.body.classList.remove('modal-open')</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-21T23:59:11.203273" elapsed="0.014906"/>
+</kw>
+<arg>Execute Javascript</arg>
+<arg>document.body.classList.remove('modal-open')</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-21T23:59:11.201668" elapsed="0.016600"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:11.056915" elapsed="0.161498"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=reg_email</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:11.218630" elapsed="0.020548"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:11.239574" level="INFO">Typing text 'testuser012@test.com' into text field 'id=reg_email'.</msg>
+<arg>id=reg_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:11.239360" elapsed="0.348116"/>
+</kw>
+<kw name="Textfield Value Should Be" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:11.650853" level="INFO">Content of text field 'id=reg_email' is 'testuser012@test.com'.</msg>
+<arg>id=reg_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Verifies text field ``locator`` has exactly text ``expected``.</doc>
+<status status="PASS" start="2026-02-21T23:59:11.587829" elapsed="0.063106"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:11.651308" level="INFO">Typing text 'Omkar@2003' into text field 'id=reg_password'.</msg>
+<arg>id=reg_password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:11.651091" elapsed="0.107882"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:11.772499" level="INFO">Element 'id=reg_password' is displayed.</msg>
+<arg>id=reg_password</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:11.759383" elapsed="0.013243"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:11.773200" level="INFO">Executing JavaScript:
+document.querySelector('input[name="register"]').click()
+Without any arguments.</msg>
+<arg>document.querySelector('input[name="register"]').click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-21T23:59:11.772815" elapsed="2.808449"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Check Registration Result">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:14.593079" level="INFO">Current page contains text 'Logout'.</msg>
+<arg>Logout</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-21T23:59:14.582274" elapsed="0.010899"/>
+</kw>
+<msg time="2026-02-21T23:59:14.593327" level="INFO">${logout} = True</msg>
+<var>${logout}</var>
+<arg>Page Should Contain</arg>
+<arg>Logout</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-21T23:59:14.582160" elapsed="0.011197"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:15.007462" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-13.png"&gt;&lt;img src="selenium-screenshot-13.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-21T23:59:15.007648" level="FAIL">Page should have contained text 'already registered' but did not.</msg>
+<arg>already registered</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2026-02-21T23:59:14.593827" elapsed="0.414708">Page should have contained text 'already registered' but did not.</status>
+</kw>
+<msg time="2026-02-21T23:59:15.008734" level="INFO">${exists} = False</msg>
+<var>${exists}</var>
+<arg>Page Should Contain</arg>
+<arg>already registered</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-21T23:59:14.593589" elapsed="0.415176"/>
+</kw>
+<if>
+<branch type="IF" condition="${logout}">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-21T23:59:15.009409" level="INFO">New user registered</msg>
+<arg>New user registered</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-21T23:59:15.009212" elapsed="0.000264"/>
+</kw>
+<kw name="Logout User" owner="login_keywords">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:15.010332" level="INFO">Opening url 'https://practice.automationtesting.in/my-account/'</msg>
+<arg>https://practice.automationtesting.in/my-account/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:59:15.010184" elapsed="3.196851"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>css=body</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-02-21T23:59:18.207295" elapsed="0.010188"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:18.218100" level="INFO">Clicking element 'xpath=//a[text()='Logout']'.</msg>
+<arg>xpath=//a[text()='Logout']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:18.217905" elapsed="5.108040"/>
+</kw>
+<arg>Click Element</arg>
+<arg>xpath=//a[text()='Logout']</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-21T23:59:18.217673" elapsed="5.108434"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:23.326409" elapsed="0.012303"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:15.009771" elapsed="8.329042"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:23.338937" elapsed="0.009713"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:15.008924" elapsed="8.339804"/>
+</branch>
+<branch type="ELSE IF" condition="${exists}">
+<kw name="Fail" owner="BuiltIn">
+<arg>User already registered — registration must be new</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-21T23:59:23.348919" elapsed="0.000025"/>
+</kw>
+<status status="NOT RUN" start="2026-02-21T23:59:23.348786" elapsed="0.000192"/>
+</branch>
+<branch type="ELSE">
+<kw name="Fail" owner="BuiltIn">
+<arg>Registration result not detected</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-21T23:59:23.349079" elapsed="0.000018"/>
+</kw>
+<status status="NOT RUN" start="2026-02-21T23:59:23.349008" elapsed="0.000118"/>
+</branch>
+<status status="PASS" start="2026-02-21T23:59:15.008883" elapsed="8.340266"/>
+</if>
+<status status="PASS" start="2026-02-21T23:59:14.581890" elapsed="8.767307"/>
+</kw>
+<arg>15s</arg>
+<arg>2s</arg>
+<arg>Check Registration Result</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-02-21T23:59:14.581478" elapsed="8.767757"/>
+</kw>
+<arg>${EMAIL}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2026-02-21T23:59:09.764461" elapsed="13.584819"/>
+</kw>
+<kw name="Login Validation">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:23.349824" level="INFO">Opening url 'https://practice.automationtesting.in/my-account/'</msg>
+<arg>${BASE_URL}/my-account/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:59:23.349704" elapsed="2.414481"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:25.764356" elapsed="0.009645"/>
+</kw>
+<kw name="Login User" owner="login_keywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:25.774628" level="INFO">Typing text 'testuser012@test.com' into text field 'id=username'.</msg>
+<arg>id=username</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:25.774475" elapsed="0.074559"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:25.850002" level="INFO">Typing text 'Omkar@2003' into text field 'id=password'.</msg>
+<arg>id=password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:25.849414" elapsed="0.129997"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:25.979959" level="INFO">Clicking button 'name=login'.</msg>
+<arg>name=login</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:25.979674" elapsed="0.062918"/>
+</kw>
+<arg>${EMAIL}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2026-02-21T23:59:25.774191" elapsed="0.268596"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:28.450790" level="INFO">Current page contains text 'Dashboard'.</msg>
+<arg>Dashboard</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-21T23:59:26.043269" elapsed="2.407607"/>
+</kw>
+<msg time="2026-02-21T23:59:28.450997" level="INFO">${login_success} = True</msg>
+<var>${login_success}</var>
+<arg>Page Should Contain</arg>
+<arg>Dashboard</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-21T23:59:26.042993" elapsed="2.408022"/>
+</kw>
+<if>
+<branch type="IF" condition="not ${login_success}">
+<kw name="Fail" owner="BuiltIn">
+<arg>Invalid login for user: ${EMAIL}</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-21T23:59:28.451360" elapsed="0.000028"/>
+</kw>
+<status status="NOT RUN" start="2026-02-21T23:59:28.451119" elapsed="0.000307"/>
+</branch>
+<status status="PASS" start="2026-02-21T23:59:28.451095" elapsed="0.000363"/>
+</if>
+<arg>${EMAIL}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2026-02-21T23:59:23.349429" elapsed="5.102079"/>
+</kw>
+<kw name="Search Validation">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:28.451985" level="INFO">Opening url 'https://practice.automationtesting.in/shop/'</msg>
+<arg>${BASE_URL}/shop/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:59:28.451865" elapsed="2.059425"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:30.511614" elapsed="0.041819"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:30.553920" level="INFO">Typing text 'HTML' into text field 'id=s'.</msg>
+<arg>id=s</arg>
+<arg>HTML</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:30.553669" elapsed="0.262084"/>
+</kw>
+<kw name="Textfield Value Should Be" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:30.847842" level="INFO">Content of text field 'id=s' is 'HTML'.</msg>
+<arg>id=s</arg>
+<arg>HTML</arg>
+<doc>Verifies text field ``locator`` has exactly text ``expected``.</doc>
+<status status="PASS" start="2026-02-21T23:59:30.816119" elapsed="0.031854"/>
+</kw>
+<kw name="Press Keys" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:30.848758" level="INFO">Sending key(s) ('ENTER',) to id=s element.</msg>
+<msg time="2026-02-21T23:59:31.148517" level="INFO">Pressing special key ENTER to element.</msg>
+<msg time="2026-02-21T23:59:31.148610" level="INFO">Releasing special key ENTER.</msg>
+<arg>id=s</arg>
+<arg>ENTER</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="PASS" start="2026-02-21T23:59:30.848237" elapsed="0.307220"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>css=ul.products</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:31.155696" elapsed="0.016492"/>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:31.182684" level="INFO">${count} = 8</msg>
+<var>${count}</var>
+<arg>css=ul.products li</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:31.172518" elapsed="0.010221"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${count} &gt; 0</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-02-21T23:59:31.182901" elapsed="0.000279"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:28.451652" elapsed="2.731635"/>
+</kw>
+<kw name="Sorting Validation">
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:31.183999" level="INFO">Selecting options from selection list 'css=select.orderby' by value price.</msg>
+<arg>css=select.orderby</arg>
+<arg>price</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-02-21T23:59:31.183763" elapsed="1.707711"/>
+</kw>
+<kw name="List Selection Should Be" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:32.891977" level="INFO">Verifying list 'css=select.orderby' has option [ price ] selected.</msg>
+<msg time="2026-02-21T23:59:32.905914" level="INFO">Current page contains list 'css=select.orderby'.</msg>
+<arg>css=select.orderby</arg>
+<arg>price</arg>
+<doc>Verifies selection list ``locator`` has ``expected`` options selected.</doc>
+<status status="PASS" start="2026-02-21T23:59:32.891708" elapsed="0.087169"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:32.988906" level="INFO">Element 'css=ul.products' is displayed.</msg>
+<arg>css=ul.products</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:32.979282" elapsed="0.009704"/>
+</kw>
+<arg>3x</arg>
+<arg>3s</arg>
+<arg>Element Should Be Visible</arg>
+<arg>css=ul.products</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-02-21T23:59:32.979082" elapsed="0.009972"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:32.989486" level="INFO">Executing JavaScript:
+document.querySelector('#min_price').value='150';
+Without any arguments.</msg>
+<arg>document.querySelector('#min_price').value='150';</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-21T23:59:32.989180" elapsed="0.006467"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:32.996465" level="INFO">Executing JavaScript:
+document.querySelector('#max_price').value='300';
+Without any arguments.</msg>
+<arg>document.querySelector('#max_price').value='300';</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-21T23:59:32.995937" elapsed="0.043131"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:33.039682" level="INFO">Executing JavaScript:
+jQuery('body').trigger('price_slider_change');
+Without any arguments.</msg>
+<arg>jQuery('body').trigger('price_slider_change');</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-21T23:59:33.039247" elapsed="0.009438"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:33.049061" level="INFO">Clicking button 'css=.price_slider_amount button'.</msg>
+<arg>css=.price_slider_amount button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:33.048877" elapsed="0.059044"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>css=.price_label</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:33.108091" elapsed="1.398739"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:31.183483" elapsed="3.323527"/>
+</kw>
+<kw name="Cart Validation">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:34.507905" level="INFO">Opening url 'https://practice.automationtesting.in/shop/?add-to-cart=169'</msg>
+<arg>${PRODUCT1}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:59:34.507702" elapsed="1.172210"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:35.721342" level="INFO">Current page contains text 'added to your basket'.</msg>
+<arg>added to your basket</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-21T23:59:35.680087" elapsed="0.041344"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:35.721793" level="INFO">Opening url 'https://practice.automationtesting.in/shop/?add-to-cart=181'</msg>
+<arg>${PRODUCT2}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:59:35.721618" elapsed="1.485950"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:37.243575" level="INFO">Current page contains text 'added to your basket'.</msg>
+<arg>added to your basket</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-21T23:59:37.207736" elapsed="0.035984"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:37.244294" level="INFO">Opening url 'https://practice.automationtesting.in/basket/'</msg>
+<arg>${BASE_URL}/basket/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:59:37.244009" elapsed="1.044544"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>css=table.shop_table</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:38.288758" elapsed="0.026723"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:34.507296" elapsed="3.808286"/>
+</kw>
+<kw name="Billing Validation">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:38.316240" level="INFO">Opening url 'https://practice.automationtesting.in/checkout/'</msg>
+<arg>${BASE_URL}/checkout/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:59:38.316115" elapsed="1.487303"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=billing_first_name</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:39.803585" elapsed="0.029924"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=billing_first_name</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:39.833675" elapsed="0.020200"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=billing_last_name</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:39.854041" elapsed="0.021236"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=billing_email</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:39.875521" elapsed="0.027007"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=billing_phone</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:39.902712" elapsed="0.040647"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=billing_city</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:39.943610" elapsed="0.024693"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=billing_postcode</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:39.968476" elapsed="0.024748"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:39.993587" level="INFO">Typing text 'Omkar' into text field 'id=billing_first_name'.</msg>
+<arg>id=billing_first_name</arg>
+<arg>${FIRSTNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:39.993400" elapsed="0.079669"/>
+</kw>
+<kw name="Textfield Value Should Be" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:40.094158" level="INFO">Content of text field 'id=billing_first_name' is 'Omkar'.</msg>
+<arg>id=billing_first_name</arg>
+<arg>${FIRSTNAME}</arg>
+<doc>Verifies text field ``locator`` has exactly text ``expected``.</doc>
+<status status="PASS" start="2026-02-21T23:59:40.073312" elapsed="0.020932"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:40.094603" level="INFO">Typing text 'Reddy' into text field 'id=billing_last_name'.</msg>
+<arg>id=billing_last_name</arg>
+<arg>${LASTNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:40.094407" elapsed="0.060508"/>
+</kw>
+<kw name="Textfield Value Should Be" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:40.177765" level="INFO">Content of text field 'id=billing_last_name' is 'Reddy'.</msg>
+<arg>id=billing_last_name</arg>
+<arg>${LASTNAME}</arg>
+<doc>Verifies text field ``locator`` has exactly text ``expected``.</doc>
+<status status="PASS" start="2026-02-21T23:59:40.155162" elapsed="0.022756"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:40.178549" level="INFO">Typing text 'testuser012@test.com' into text field 'id=billing_email'.</msg>
+<arg>id=billing_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:40.178194" elapsed="0.089022"/>
+</kw>
+<kw name="Textfield Value Should Be" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:40.290981" level="INFO">Content of text field 'id=billing_email' is 'testuser012@test.com'.</msg>
+<arg>id=billing_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Verifies text field ``locator`` has exactly text ``expected``.</doc>
+<status status="PASS" start="2026-02-21T23:59:40.267524" elapsed="0.023573"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:40.291595" level="INFO">Typing text '9876543210' into text field 'id=billing_phone'.</msg>
+<arg>id=billing_phone</arg>
+<arg>${PHONE}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:40.291332" elapsed="0.080564"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:40.372501" level="INFO">Typing text 'Hyderabad' into text field 'id=billing_city'.</msg>
+<arg>id=billing_city</arg>
+<arg>${CITY}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:40.372163" elapsed="0.099673"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:40.472350" level="INFO">Typing text '500001' into text field 'id=billing_postcode'.</msg>
+<arg>id=billing_postcode</arg>
+<arg>${POSTCODE}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:40.472089" elapsed="0.078389"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:40.569449" level="INFO">Element 'id=place_order' is displayed.</msg>
+<arg>id=place_order</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:40.550702" elapsed="0.018836"/>
+</kw>
+<arg>${EMAIL}</arg>
+<arg>${FIRSTNAME}</arg>
+<arg>${LASTNAME}</arg>
+<arg>${PHONE}</arg>
+<arg>${CITY}</arg>
+<arg>${POSTCODE}</arg>
+<status status="PASS" start="2026-02-21T23:59:38.315752" elapsed="2.253872"/>
+</kw>
+<kw name="Logout Validation">
+<kw name="Logout User" owner="login_keywords">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:40.570261" level="INFO">Opening url 'https://practice.automationtesting.in/my-account/'</msg>
+<arg>https://practice.automationtesting.in/my-account/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:59:40.570181" elapsed="0.920470"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>css=body</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-02-21T23:59:41.490926" elapsed="0.025281"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:41.516682" level="INFO">Clicking element 'xpath=//a[text()='Logout']'.</msg>
+<arg>xpath=//a[text()='Logout']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-21T23:59:41.516541" elapsed="1.552604"/>
+</kw>
+<arg>Click Element</arg>
+<arg>xpath=//a[text()='Logout']</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-21T23:59:41.516387" elapsed="1.552841"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:43.069375" elapsed="0.011405"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:40.570015" elapsed="2.510879"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-21T23:59:43.081051" elapsed="0.009123"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:40.569788" elapsed="2.520479"/>
+</kw>
+<arg>EMAIL=testuser012@test.com</arg>
+<arg>PASSWORD=Omkar@2003</arg>
+<arg>FIRSTNAME=Omkar</arg>
+<arg>LASTNAME=Reddy</arg>
+<arg>PHONE=9876543210</arg>
+<arg>CITY=Hyderabad</arg>
+<arg>POSTCODE=500001</arg>
+<status status="PASS" start="2026-02-21T23:59:09.763956" elapsed="33.326352"/>
+</kw>
+<kw name="End User Session" type="TEARDOWN">
+<kw name="Run Keyword If Test Failed" owner="BuiltIn">
+<arg>Capture Failed Screenshot</arg>
+<doc>Runs the given keyword with the given arguments, if the test failed.</doc>
+<status status="PASS" start="2026-02-21T23:59:43.091013" elapsed="0.000069"/>
+</kw>
+<kw name="Close Application" owner="common">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-02-21T23:59:43.091332" elapsed="2.236125"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:43.091173" elapsed="2.236471"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:43.090784" elapsed="2.236929"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:58:54.248441" elapsed="51.079982"/>
+</test>
+<test id="s1-t2" name="User2" line="22">
+<kw name="Start User Session" type="SETUP">
+<kw name="Open Application" owner="common">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-21T23:59:45.332498" level="INFO">Opening browser 'chrome' to base url 'https://practice.automationtesting.in/'.</msg>
+<arg>${URL}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-21T23:59:45.332294" elapsed="15.283026"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-22T00:00:00.615549" elapsed="0.071280"/>
+</kw>
+<kw name="Set Selenium Timeout" owner="SeleniumLibrary">
+<arg>${TIMEOUT}</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" start="2026-02-22T00:00:00.687038" elapsed="0.001202"/>
+</kw>
+<arg>${BROWSER}</arg>
+<status status="PASS" start="2026-02-21T23:59:45.332009" elapsed="15.356370"/>
+</kw>
+<status status="PASS" start="2026-02-21T23:59:45.331749" elapsed="15.356743"/>
+</kw>
+<kw name="Ecommerce Flow">
+<kw name="Registration Validation">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:00.689577" level="INFO">Opening url 'https://practice.automationtesting.in/my-account/'</msg>
+<arg>${BASE_URL}/my-account/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-22T00:00:00.689469" elapsed="2.411392"/>
+</kw>
+<kw name="Handle Ads Popup" owner="common">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:03.101526" level="INFO">Clicking element 'css:button[aria-label='Close']'.</msg>
+<msg time="2026-02-22T00:00:03.254142" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-14.png"&gt;&lt;img src="selenium-screenshot-14.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-22T00:00:03.254315" level="FAIL">Element with locator 'css:button[aria-label='Close']' not found.</msg>
+<arg>css:button[aria-label='Close']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-02-22T00:00:03.101396" elapsed="0.153915">Element with locator 'css:button[aria-label='Close']' not found.</status>
+</kw>
+<arg>Click Element</arg>
+<arg>css:button[aria-label='Close']</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-22T00:00:03.101280" elapsed="0.154145"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:03.255965" level="INFO">Executing JavaScript:
+document.body.classList.remove('modal-open')
+Without any arguments.</msg>
+<arg>document.body.classList.remove('modal-open')</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-22T00:00:03.255688" elapsed="0.053317"/>
+</kw>
+<arg>Execute Javascript</arg>
+<arg>document.body.classList.remove('modal-open')</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-22T00:00:03.255554" elapsed="0.053544"/>
+</kw>
+<status status="PASS" start="2026-02-22T00:00:03.101061" elapsed="0.208094"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=reg_email</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-22T00:00:03.309270" elapsed="0.014226"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:03.323851" level="INFO">Typing text 'testuser1@test.com' into text field 'id=reg_email'.</msg>
+<arg>id=reg_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-22T00:00:03.323660" elapsed="0.094188"/>
+</kw>
+<kw name="Textfield Value Should Be" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:03.445980" level="INFO">Content of text field 'id=reg_email' is 'testuser1@test.com'.</msg>
+<arg>id=reg_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Verifies text field ``locator`` has exactly text ``expected``.</doc>
+<status status="PASS" start="2026-02-22T00:00:03.418391" elapsed="0.027700"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:03.446587" level="INFO">Typing text 'Omkar@2003' into text field 'id=reg_password'.</msg>
+<arg>id=reg_password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-22T00:00:03.446309" elapsed="0.103692"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:03.567212" level="INFO">Element 'id=reg_password' is displayed.</msg>
+<arg>id=reg_password</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-22T00:00:03.550286" elapsed="0.017003"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:03.567754" level="INFO">Executing JavaScript:
+document.querySelector('input[name="register"]').click()
+Without any arguments.</msg>
+<arg>document.querySelector('input[name="register"]').click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-22T00:00:03.567441" elapsed="1.728213"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Check Registration Result">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:05.644993" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-15.png"&gt;&lt;img src="selenium-screenshot-15.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-22T00:00:05.645117" level="FAIL">Page should have contained text 'Logout' but did not.</msg>
+<arg>Logout</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2026-02-22T00:00:05.297665" elapsed="0.348068">Page should have contained text 'Logout' but did not.</status>
+</kw>
+<msg time="2026-02-22T00:00:05.645894" level="INFO">${logout} = False</msg>
+<var>${logout}</var>
+<arg>Page Should Contain</arg>
+<arg>Logout</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:05.297211" elapsed="0.348709"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:05.656800" level="INFO">Current page contains text 'already registered'.</msg>
+<arg>already registered</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-22T00:00:05.646183" elapsed="0.010705"/>
+</kw>
+<msg time="2026-02-22T00:00:05.657013" level="INFO">${exists} = True</msg>
+<var>${exists}</var>
+<arg>Page Should Contain</arg>
+<arg>already registered</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:05.646062" elapsed="0.010973"/>
+</kw>
+<if>
+<branch type="IF" condition="${logout}">
+<kw name="Log" owner="BuiltIn">
+<arg>New user registered</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:05.657366" elapsed="0.000041"/>
+</kw>
+<kw name="Logout User" owner="login_keywords">
+<status status="NOT RUN" start="2026-02-22T00:00:05.657560" elapsed="0.000027"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:05.657672" elapsed="0.000017"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:05.657153" elapsed="0.000562"/>
+</branch>
+<branch type="ELSE IF" condition="${exists}">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-02-22T00:00:05.658002" level="FAIL">User already registered — registration must be new</msg>
+<arg>User already registered — registration must be new</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-02-22T00:00:05.657833" elapsed="0.000254">User already registered — registration must be new</status>
+</kw>
+<status status="FAIL" start="2026-02-22T00:00:05.657743" elapsed="0.000409">User already registered — registration must be new</status>
+</branch>
+<branch type="ELSE">
+<kw name="Fail" owner="BuiltIn">
+<arg>Registration result not detected</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:05.658263" elapsed="0.000023"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:05.658195" elapsed="0.000138"/>
+</branch>
+<status status="FAIL" start="2026-02-22T00:00:05.657123" elapsed="0.001250">User already registered — registration must be new</status>
+</if>
+<status status="FAIL" start="2026-02-22T00:00:05.296633" elapsed="0.361856">User already registered — registration must be new</status>
+</kw>
+<kw name="Check Registration Result">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:07.950124" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-16.png"&gt;&lt;img src="selenium-screenshot-16.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-22T00:00:07.950424" level="FAIL">Page should have contained text 'Logout' but did not.</msg>
+<arg>Logout</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2026-02-22T00:00:07.660984" elapsed="0.290784">Page should have contained text 'Logout' but did not.</status>
+</kw>
+<msg time="2026-02-22T00:00:07.952073" level="INFO">${logout} = False</msg>
+<var>${logout}</var>
+<arg>Page Should Contain</arg>
+<arg>Logout</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:07.660601" elapsed="0.291531"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:07.967506" level="INFO">Current page contains text 'already registered'.</msg>
+<arg>already registered</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-22T00:00:07.952896" elapsed="0.014749"/>
+</kw>
+<msg time="2026-02-22T00:00:07.967841" level="INFO">${exists} = True</msg>
+<var>${exists}</var>
+<arg>Page Should Contain</arg>
+<arg>already registered</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:07.952518" elapsed="0.015367"/>
+</kw>
+<if>
+<branch type="IF" condition="${logout}">
+<kw name="Log" owner="BuiltIn">
+<arg>New user registered</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:07.968318" elapsed="0.000050"/>
+</kw>
+<kw name="Logout User" owner="login_keywords">
+<status status="NOT RUN" start="2026-02-22T00:00:07.968604" elapsed="0.000061"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:07.968855" elapsed="0.000043"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:07.968048" elapsed="0.000916"/>
+</branch>
+<branch type="ELSE IF" condition="${exists}">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-02-22T00:00:07.969532" level="FAIL">User already registered — registration must be new</msg>
+<arg>User already registered — registration must be new</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-02-22T00:00:07.969232" elapsed="0.000422">User already registered — registration must be new</status>
+</kw>
+<status status="FAIL" start="2026-02-22T00:00:07.969026" elapsed="0.000818">User already registered — registration must be new</status>
+</branch>
+<branch type="ELSE">
+<kw name="Fail" owner="BuiltIn">
+<arg>Registration result not detected</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:07.970212" elapsed="0.000074"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:07.969958" elapsed="0.000450"/>
+</branch>
+<status status="FAIL" start="2026-02-22T00:00:07.968013" elapsed="0.002487">User already registered — registration must be new</status>
+</if>
+<status status="FAIL" start="2026-02-22T00:00:07.659891" elapsed="0.310817">User already registered — registration must be new</status>
+</kw>
+<kw name="Check Registration Result">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:10.306151" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-17.png"&gt;&lt;img src="selenium-screenshot-17.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-22T00:00:10.306279" level="FAIL">Page should have contained text 'Logout' but did not.</msg>
+<arg>Logout</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2026-02-22T00:00:09.972031" elapsed="0.334740">Page should have contained text 'Logout' but did not.</status>
+</kw>
+<msg time="2026-02-22T00:00:10.306892" level="INFO">${logout} = False</msg>
+<var>${logout}</var>
+<arg>Page Should Contain</arg>
+<arg>Logout</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:09.971844" elapsed="0.335067"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:10.314741" level="INFO">Current page contains text 'already registered'.</msg>
+<arg>already registered</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-22T00:00:10.307228" elapsed="0.007589"/>
+</kw>
+<msg time="2026-02-22T00:00:10.314924" level="INFO">${exists} = True</msg>
+<var>${exists}</var>
+<arg>Page Should Contain</arg>
+<arg>already registered</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:10.307077" elapsed="0.007865"/>
+</kw>
+<if>
+<branch type="IF" condition="${logout}">
+<kw name="Log" owner="BuiltIn">
+<arg>New user registered</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:10.315158" elapsed="0.000021"/>
+</kw>
+<kw name="Logout User" owner="login_keywords">
+<status status="NOT RUN" start="2026-02-22T00:00:10.315286" elapsed="0.000023"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:10.315376" elapsed="0.000016"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:10.315022" elapsed="0.000396"/>
+</branch>
+<branch type="ELSE IF" condition="${exists}">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-02-22T00:00:10.315667" level="FAIL">User already registered — registration must be new</msg>
+<arg>User already registered — registration must be new</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-02-22T00:00:10.315525" elapsed="0.000196">User already registered — registration must be new</status>
+</kw>
+<status status="FAIL" start="2026-02-22T00:00:10.315445" elapsed="0.000327">User already registered — registration must be new</status>
+</branch>
+<branch type="ELSE">
+<kw name="Fail" owner="BuiltIn">
+<arg>Registration result not detected</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:10.315868" elapsed="0.000043"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:10.315800" elapsed="0.000138"/>
+</branch>
+<status status="FAIL" start="2026-02-22T00:00:10.315002" elapsed="0.000959">User already registered — registration must be new</status>
+</if>
+<status status="FAIL" start="2026-02-22T00:00:09.971407" elapsed="0.344620">User already registered — registration must be new</status>
+</kw>
+<kw name="Check Registration Result">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:12.646611" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-18.png"&gt;&lt;img src="selenium-screenshot-18.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-22T00:00:12.646736" level="FAIL">Page should have contained text 'Logout' but did not.</msg>
+<arg>Logout</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2026-02-22T00:00:12.317091" elapsed="0.330112">Page should have contained text 'Logout' but did not.</status>
+</kw>
+<msg time="2026-02-22T00:00:12.647315" level="INFO">${logout} = False</msg>
+<var>${logout}</var>
+<arg>Page Should Contain</arg>
+<arg>Logout</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:12.316979" elapsed="0.330355"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:12.655057" level="INFO">Current page contains text 'already registered'.</msg>
+<arg>already registered</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-22T00:00:12.647577" elapsed="0.007563"/>
+</kw>
+<msg time="2026-02-22T00:00:12.655256" level="INFO">${exists} = True</msg>
+<var>${exists}</var>
+<arg>Page Should Contain</arg>
+<arg>already registered</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:12.647456" elapsed="0.007818"/>
+</kw>
+<if>
+<branch type="IF" condition="${logout}">
+<kw name="Log" owner="BuiltIn">
+<arg>New user registered</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:12.655504" elapsed="0.000024"/>
+</kw>
+<kw name="Logout User" owner="login_keywords">
+<status status="NOT RUN" start="2026-02-22T00:00:12.655671" elapsed="0.000027"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:12.655779" elapsed="0.000016"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:12.655362" elapsed="0.000461"/>
+</branch>
+<branch type="ELSE IF" condition="${exists}">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-02-22T00:00:12.656106" level="FAIL">User already registered — registration must be new</msg>
+<arg>User already registered — registration must be new</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-02-22T00:00:12.655948" elapsed="0.000214">User already registered — registration must be new</status>
+</kw>
+<status status="FAIL" start="2026-02-22T00:00:12.655852" elapsed="0.000362">User already registered — registration must be new</status>
+</branch>
+<branch type="ELSE">
+<kw name="Fail" owner="BuiltIn">
+<arg>Registration result not detected</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:12.656305" elapsed="0.000018"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:12.656242" elapsed="0.000107"/>
+</branch>
+<status status="FAIL" start="2026-02-22T00:00:12.655341" elapsed="0.001031">User already registered — registration must be new</status>
+</if>
+<status status="FAIL" start="2026-02-22T00:00:12.316695" elapsed="0.339756">User already registered — registration must be new</status>
+</kw>
+<kw name="Check Registration Result">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:15.005740" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-19.png"&gt;&lt;img src="selenium-screenshot-19.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-22T00:00:15.005881" level="FAIL">Page should have contained text 'Logout' but did not.</msg>
+<arg>Logout</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2026-02-22T00:00:14.657614" elapsed="0.348845">Page should have contained text 'Logout' but did not.</status>
+</kw>
+<msg time="2026-02-22T00:00:15.006593" level="INFO">${logout} = False</msg>
+<var>${logout}</var>
+<arg>Page Should Contain</arg>
+<arg>Logout</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:14.657478" elapsed="0.349135"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:15.015675" level="INFO">Current page contains text 'already registered'.</msg>
+<arg>already registered</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-22T00:00:15.006919" elapsed="0.008835"/>
+</kw>
+<msg time="2026-02-22T00:00:15.015859" level="INFO">${exists} = True</msg>
+<var>${exists}</var>
+<arg>Page Should Contain</arg>
+<arg>already registered</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:15.006780" elapsed="0.009095"/>
+</kw>
+<if>
+<branch type="IF" condition="${logout}">
+<kw name="Log" owner="BuiltIn">
+<arg>New user registered</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:15.016095" elapsed="0.000022"/>
+</kw>
+<kw name="Logout User" owner="login_keywords">
+<status status="NOT RUN" start="2026-02-22T00:00:15.016225" elapsed="0.000021"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:15.016317" elapsed="0.000017"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:15.015956" elapsed="0.000404"/>
+</branch>
+<branch type="ELSE IF" condition="${exists}">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-02-22T00:00:15.016619" level="FAIL">User already registered — registration must be new</msg>
+<arg>User already registered — registration must be new</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-02-22T00:00:15.016469" elapsed="0.000205">User already registered — registration must be new</status>
+</kw>
+<status status="FAIL" start="2026-02-22T00:00:15.016387" elapsed="0.000339">User already registered — registration must be new</status>
+</branch>
+<branch type="ELSE">
+<kw name="Fail" owner="BuiltIn">
+<arg>Registration result not detected</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:15.016819" elapsed="0.000016"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:15.016755" elapsed="0.000107"/>
+</branch>
+<status status="FAIL" start="2026-02-22T00:00:15.015936" elapsed="0.000948">User already registered — registration must be new</status>
+</if>
+<status status="FAIL" start="2026-02-22T00:00:14.657091" elapsed="0.359857">User already registered — registration must be new</status>
+</kw>
+<kw name="Check Registration Result">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:17.395651" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-20.png"&gt;&lt;img src="selenium-screenshot-20.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-22T00:00:17.395804" level="FAIL">Page should have contained text 'Logout' but did not.</msg>
+<arg>Logout</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2026-02-22T00:00:17.017867" elapsed="0.378512">Page should have contained text 'Logout' but did not.</status>
+</kw>
+<msg time="2026-02-22T00:00:17.396497" level="INFO">${logout} = False</msg>
+<var>${logout}</var>
+<arg>Page Should Contain</arg>
+<arg>Logout</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:17.017754" elapsed="0.378762"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:17.404781" level="INFO">Current page contains text 'already registered'.</msg>
+<arg>already registered</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-22T00:00:17.396764" elapsed="0.008095"/>
+</kw>
+<msg time="2026-02-22T00:00:17.404967" level="INFO">${exists} = True</msg>
+<var>${exists}</var>
+<arg>Page Should Contain</arg>
+<arg>already registered</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:17.396636" elapsed="0.008348"/>
+</kw>
+<if>
+<branch type="IF" condition="${logout}">
+<kw name="Log" owner="BuiltIn">
+<arg>New user registered</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:17.405209" elapsed="0.000022"/>
+</kw>
+<kw name="Logout User" owner="login_keywords">
+<status status="NOT RUN" start="2026-02-22T00:00:17.405341" elapsed="0.000020"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:17.405431" elapsed="0.000016"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:17.405070" elapsed="0.000402"/>
+</branch>
+<branch type="ELSE IF" condition="${exists}">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-02-22T00:00:17.405716" level="FAIL">User already registered — registration must be new</msg>
+<arg>User already registered — registration must be new</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-02-22T00:00:17.405575" elapsed="0.000199">User already registered — registration must be new</status>
+</kw>
+<status status="FAIL" start="2026-02-22T00:00:17.405497" elapsed="0.000330">User already registered — registration must be new</status>
+</branch>
+<branch type="ELSE">
+<kw name="Fail" owner="BuiltIn">
+<arg>Registration result not detected</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:17.405915" elapsed="0.000016"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:17.405856" elapsed="0.000101"/>
+</branch>
+<status status="FAIL" start="2026-02-22T00:00:17.405049" elapsed="0.000928">User already registered — registration must be new</status>
+</if>
+<status status="FAIL" start="2026-02-22T00:00:17.017463" elapsed="0.388578">User already registered — registration must be new</status>
+</kw>
+<kw name="Check Registration Result">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:19.732775" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-21.png"&gt;&lt;img src="selenium-screenshot-21.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-22T00:00:19.732948" level="FAIL">Page should have contained text 'Logout' but did not.</msg>
+<arg>Logout</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2026-02-22T00:00:19.407261" elapsed="0.326265">Page should have contained text 'Logout' but did not.</status>
+</kw>
+<msg time="2026-02-22T00:00:19.733651" level="INFO">${logout} = False</msg>
+<var>${logout}</var>
+<arg>Page Should Contain</arg>
+<arg>Logout</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:19.407136" elapsed="0.326537"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:19.741179" level="INFO">Current page contains text 'already registered'.</msg>
+<arg>already registered</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-22T00:00:19.733925" elapsed="0.007331"/>
+</kw>
+<msg time="2026-02-22T00:00:19.741366" level="INFO">${exists} = True</msg>
+<var>${exists}</var>
+<arg>Page Should Contain</arg>
+<arg>already registered</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:19.733800" elapsed="0.007583"/>
+</kw>
+<if>
+<branch type="IF" condition="${logout}">
+<kw name="Log" owner="BuiltIn">
+<arg>New user registered</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:19.741593" elapsed="0.000022"/>
+</kw>
+<kw name="Logout User" owner="login_keywords">
+<status status="NOT RUN" start="2026-02-22T00:00:19.741720" elapsed="0.000021"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:19.741811" elapsed="0.000016"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:19.741460" elapsed="0.000392"/>
+</branch>
+<branch type="ELSE IF" condition="${exists}">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-02-22T00:00:19.742101" level="FAIL">User already registered — registration must be new</msg>
+<arg>User already registered — registration must be new</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-02-22T00:00:19.741956" elapsed="0.000199">User already registered — registration must be new</status>
+</kw>
+<status status="FAIL" start="2026-02-22T00:00:19.741877" elapsed="0.000329">User already registered — registration must be new</status>
+</branch>
+<branch type="ELSE">
+<kw name="Fail" owner="BuiltIn">
+<arg>Registration result not detected</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:19.742296" elapsed="0.000015"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:19.742235" elapsed="0.000102"/>
+</branch>
+<status status="FAIL" start="2026-02-22T00:00:19.741441" elapsed="0.000917">User already registered — registration must be new</status>
+</if>
+<status status="FAIL" start="2026-02-22T00:00:19.406839" elapsed="0.335584">User already registered — registration must be new</status>
+</kw>
+<kw name="Check Registration Result">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:22.108432" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-22.png"&gt;&lt;img src="selenium-screenshot-22.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-22T00:00:22.108662" level="FAIL">Page should have contained text 'Logout' but did not.</msg>
+<arg>Logout</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2026-02-22T00:00:21.745992" elapsed="0.363745">Page should have contained text 'Logout' but did not.</status>
+</kw>
+<msg time="2026-02-22T00:00:22.109940" level="INFO">${logout} = False</msg>
+<var>${logout}</var>
+<arg>Page Should Contain</arg>
+<arg>Logout</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:21.745638" elapsed="0.364341"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:22.131601" level="INFO">Current page contains text 'already registered'.</msg>
+<arg>already registered</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-02-22T00:00:22.110441" elapsed="0.021320"/>
+</kw>
+<msg time="2026-02-22T00:00:22.132009" level="INFO">${exists} = True</msg>
+<var>${exists}</var>
+<arg>Page Should Contain</arg>
+<arg>already registered</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-02-22T00:00:22.110202" elapsed="0.021857"/>
+</kw>
+<if>
+<branch type="IF" condition="${logout}">
+<kw name="Log" owner="BuiltIn">
+<arg>New user registered</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:22.132542" elapsed="0.000051"/>
+</kw>
+<kw name="Logout User" owner="login_keywords">
+<status status="NOT RUN" start="2026-02-22T00:00:22.132868" elapsed="0.000053"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:22.133100" elapsed="0.000045"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:22.132259" elapsed="0.000957"/>
+</branch>
+<branch type="ELSE IF" condition="${exists}">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-02-22T00:00:22.133797" level="FAIL">User already registered — registration must be new</msg>
+<arg>User already registered — registration must be new</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-02-22T00:00:22.133491" elapsed="0.000426">User already registered — registration must be new</status>
+</kw>
+<status status="FAIL" start="2026-02-22T00:00:22.133283" elapsed="0.000761">User already registered — registration must be new</status>
+</branch>
+<branch type="ELSE">
+<kw name="Fail" owner="BuiltIn">
+<arg>Registration result not detected</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-02-22T00:00:22.134270" elapsed="0.000043"/>
+</kw>
+<status status="NOT RUN" start="2026-02-22T00:00:22.134118" elapsed="0.000264"/>
+</branch>
+<status status="FAIL" start="2026-02-22T00:00:22.132213" elapsed="0.002228">User already registered — registration must be new</status>
+</if>
+<status status="FAIL" start="2026-02-22T00:00:21.744941" elapsed="0.389655">User already registered — registration must be new</status>
+</kw>
+<msg time="2026-02-22T00:00:22.134756" level="FAIL">Keyword 'Check Registration Result' failed after retrying for 15 seconds. The last error was: User already registered — registration must be new</msg>
+<arg>15s</arg>
+<arg>2s</arg>
+<arg>Check Registration Result</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="FAIL" start="2026-02-22T00:00:05.295983" elapsed="16.838978">Keyword 'Check Registration Result' failed after retrying for 15 seconds. The last error was: User already registered — registration must be new</status>
+</kw>
+<arg>${EMAIL}</arg>
+<arg>${PASSWORD}</arg>
+<status status="FAIL" start="2026-02-22T00:00:00.689245" elapsed="21.445909">Keyword 'Check Registration Result' failed after retrying for 15 seconds. The last error was: User already registered — registration must be new</status>
+</kw>
+<kw name="Login Validation">
+<arg>${EMAIL}</arg>
+<arg>${PASSWORD}</arg>
+<status status="NOT RUN" start="2026-02-22T00:00:22.135457" elapsed="0.000030"/>
+</kw>
+<kw name="Search Validation">
+<status status="NOT RUN" start="2026-02-22T00:00:22.135618" elapsed="0.000024"/>
+</kw>
+<kw name="Sorting Validation">
+<status status="NOT RUN" start="2026-02-22T00:00:22.135754" elapsed="0.000022"/>
+</kw>
+<kw name="Cart Validation">
+<status status="NOT RUN" start="2026-02-22T00:00:22.135876" elapsed="0.000022"/>
+</kw>
+<kw name="Billing Validation">
+<arg>${EMAIL}</arg>
+<arg>${FIRSTNAME}</arg>
+<arg>${LASTNAME}</arg>
+<arg>${PHONE}</arg>
+<arg>${CITY}</arg>
+<arg>${POSTCODE}</arg>
+<status status="NOT RUN" start="2026-02-22T00:00:22.136040" elapsed="0.000023"/>
+</kw>
+<kw name="Logout Validation">
+<status status="NOT RUN" start="2026-02-22T00:00:22.136171" elapsed="0.000022"/>
+</kw>
+<arg>EMAIL=testuser1@test.com</arg>
+<arg>PASSWORD=Omkar@2003</arg>
+<arg>FIRSTNAME=Ravi</arg>
+<arg>LASTNAME=Kumar</arg>
+<arg>PHONE=9876543222</arg>
+<arg>CITY=Chennai</arg>
+<arg>POSTCODE=600001</arg>
+<status status="FAIL" start="2026-02-22T00:00:00.688921" elapsed="21.447351">Keyword 'Check Registration Result' failed after retrying for 15 seconds. The last error was: User already registered — registration must be new</status>
+</kw>
+<kw name="End User Session" type="TEARDOWN">
+<kw name="Run Keyword If Test Failed" owner="BuiltIn">
+<kw name="Capture Failed Screenshot" owner="common">
+<kw name="Replace String" owner="String">
+<msg time="2026-02-22T00:00:22.138564" level="INFO">${clean} = User2</msg>
+<var>${clean}</var>
+<arg>${TEST NAME}</arg>
+<arg>${SPACE}</arg>
+<arg>_</arg>
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<status status="PASS" start="2026-02-22T00:00:22.138426" elapsed="0.000158"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-02-22T00:00:22.138783" level="INFO">${file} = FAILED_User2.png</msg>
+<var>${file}</var>
+<arg>FAILED_${clean}.png</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-02-22T00:00:22.138686" elapsed="0.000122"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-02-22T00:00:22.324945" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="FAILED_User2.png"&gt;&lt;img src="FAILED_User2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${file}</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-02-22T00:00:22.138901" elapsed="0.186160"/>
+</kw>
+<status status="PASS" start="2026-02-22T00:00:22.138256" elapsed="0.186887"/>
+</kw>
+<arg>Capture Failed Screenshot</arg>
+<doc>Runs the given keyword with the given arguments, if the test failed.</doc>
+<status status="PASS" start="2026-02-22T00:00:22.138126" elapsed="0.187056"/>
+</kw>
+<kw name="Close Application" owner="common">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-02-22T00:00:22.325512" elapsed="2.147585"/>
+</kw>
+<status status="PASS" start="2026-02-22T00:00:22.325310" elapsed="2.147974"/>
+</kw>
+<status status="PASS" start="2026-02-22T00:00:22.137870" elapsed="2.335495"/>
+</kw>
+<status status="FAIL" start="2026-02-21T23:59:45.330286" elapsed="39.143416">Keyword 'Check Registration Result' failed after retrying for 15 seconds. The last error was: User already registered — registration must be new</status>
+</test>
+<status status="FAIL" start="2026-02-21T23:58:54.049249" elapsed="90.425192"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" skip="0" id="s1" name="Robot Framework Capstone - E-Commerce Suite">Robot Framework Capstone - E-Commerce Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

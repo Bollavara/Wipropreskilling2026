@@ -1,0 +1,457 @@
+2026-02-22 11:55:27,742 - INFO - ========== TEST SUITE STARTED ==========
+2026-02-22 11:55:28,168 - INFO - Reading login data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 11:55:28,177 - INFO - Total test data rows loaded: 3
+2026-02-22 11:55:28,182 - INFO - Reading login data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 11:55:28,192 - INFO - Total test data rows loaded: 2
+2026-02-22 11:55:28,196 - INFO - Reading login data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 11:55:28,204 - INFO - Total test data rows loaded: 2
+2026-02-22 11:55:28,208 - INFO - Reading place order data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 11:55:28,216 - INFO - Total test data rows loaded: 2
+2026-02-22 11:55:28,220 - INFO - Reading registration data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 11:55:28,228 - INFO - Total test data rows loaded: 1
+2026-02-22 11:55:28,234 - INFO - Reading search data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 11:55:28,242 - INFO - Total test data rows loaded: 2
+2026-02-22 11:55:28,246 - INFO - Reading sort data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 11:55:28,257 - INFO - Total test data rows loaded: 6
+2026-02-22 11:55:28,259 - INFO - ------ Test Started: test_user_registration[data0] ------
+2026-02-22 11:55:28,261 - INFO - Browser Setup Started: firefox
+2026-02-22 11:55:28,261 - INFO - ====== WebDriver manager ======
+2026-02-22 11:55:35,635 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:55:36,095 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:55:36,261 - INFO - There is no [win64] geckodriver "v0.36.0" for browser firefox "147.0" in cache
+2026-02-22 11:55:36,262 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:55:36,423 - INFO - Getting latest mozilla release info for v0.36.0
+2026-02-22 11:55:36,844 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-02-22 11:55:37,477 - INFO - Driver downloading response is 200
+2026-02-22 11:55:40,318 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:55:40,564 - INFO - Driver has been saved in cache [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0]
+2026-02-22 11:55:59,169 - INFO - ========== STARTING USER REGISTRATION TEST ==========
+2026-02-22 11:55:59,170 - INFO - Clicking on Sign Up / My Account link
+2026-02-22 11:56:00,731 - INFO - Verifying registration page is loaded
+2026-02-22 11:56:00,825 - INFO - Entering email: Neeraja43@gmail.com
+2026-02-22 11:56:00,890 - INFO - Entering password
+2026-02-22 11:56:11,522 - ERROR - Test Failed: test_user_registration[data0]
+2026-02-22 11:56:11,522 - ERROR - Screenshot saved at: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\screenshots\test_user_registration[data0]_20260222_115611.png
+2026-02-22 11:56:11,523 - INFO - Browser Teardown Started
+2026-02-22 11:56:14,796 - INFO - Browser Closed Successfully
+
+2026-02-22 11:56:14,801 - INFO - ------ Test Finished: test_user_registration[data0] ------
+
+2026-02-22 11:56:14,801 - INFO - ------ Test Started: test_login[data0] ------
+2026-02-22 11:56:14,803 - INFO - Browser Setup Started: firefox
+2026-02-22 11:56:14,803 - INFO - ====== WebDriver manager ======
+2026-02-22 11:56:19,503 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:56:19,910 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:56:20,068 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 11:56:38,246 - INFO - ========== STARTING LOGIN TEST ==========
+2026-02-22 11:56:38,247 - INFO - Opening My Account page
+2026-02-22 11:56:39,676 - INFO - Entering email: Rani12@gmail.com
+2026-02-22 11:56:39,858 - INFO - Entering password
+2026-02-22 11:56:39,921 - INFO - Clicking checkbox
+2026-02-22 11:56:40,026 - INFO - Clicking login button
+2026-02-22 11:56:43,779 - INFO - Validating logged in username
+2026-02-22 11:56:43,807 - INFO - Valid login successful
+2026-02-22 11:56:43,807 - INFO - ========== LOGIN TEST PASSED ==========
+2026-02-22 11:56:43,808 - INFO - Browser Teardown Started
+2026-02-22 11:56:47,271 - INFO - Browser Closed Successfully
+
+2026-02-22 11:56:47,272 - INFO - ------ Test Finished: test_login[data0] ------
+
+2026-02-22 11:56:47,273 - INFO - ------ Test Started: test_login[data1] ------
+2026-02-22 11:56:47,274 - INFO - Browser Setup Started: firefox
+2026-02-22 11:56:47,275 - INFO - ====== WebDriver manager ======
+2026-02-22 11:56:52,029 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:56:52,465 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:56:52,618 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 11:57:18,643 - INFO - ========== STARTING LOGIN TEST ==========
+2026-02-22 11:57:18,644 - INFO - Opening My Account page
+2026-02-22 11:57:20,375 - INFO - Entering email: Rani16@gmail.com
+2026-02-22 11:57:20,510 - INFO - Entering password
+2026-02-22 11:57:20,551 - INFO - Clicking checkbox
+2026-02-22 11:57:20,635 - INFO - Clicking login button
+2026-02-22 11:57:22,161 - INFO - Validating logged in username
+2026-02-22 11:57:32,377 - INFO - Invalid login handled correctly
+2026-02-22 11:57:32,378 - INFO - ========== LOGIN TEST PASSED ==========
+2026-02-22 11:57:32,383 - INFO - Browser Teardown Started
+2026-02-22 11:57:35,594 - INFO - Browser Closed Successfully
+
+2026-02-22 11:57:35,596 - INFO - ------ Test Finished: test_login[data1] ------
+
+2026-02-22 11:57:35,597 - INFO - ------ Test Started: test_search_product[data0] ------
+2026-02-22 11:57:35,600 - INFO - Browser Setup Started: firefox
+2026-02-22 11:57:35,602 - INFO - ====== WebDriver manager ======
+2026-02-22 11:57:39,841 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:57:40,321 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:57:40,473 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 11:57:59,742 - INFO - ========== STARTING SEARCH PRODUCT TEST ==========
+2026-02-22 11:57:59,743 - INFO - Navigating to Shop page
+2026-02-22 11:58:09,812 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 11:58:09,815 - INFO - Searching for product: Selenium Ruby
+2026-02-22 11:58:09,912 - INFO - Search submitted successfully
+2026-02-22 11:58:09,929 - INFO - Validating search results presence
+2026-02-22 11:58:10,618 - INFO - Search results found
+2026-02-22 11:58:13,383 - INFO - ========== SEARCH PRODUCT TEST COMPLETED ==========
+2026-02-22 11:58:13,399 - INFO - Browser Teardown Started
+2026-02-22 11:58:16,912 - INFO - Browser Closed Successfully
+
+2026-02-22 11:58:16,913 - INFO - ------ Test Finished: test_search_product[data0] ------
+
+2026-02-22 11:58:16,913 - INFO - ------ Test Started: test_search_product[data1] ------
+2026-02-22 11:58:16,914 - INFO - Browser Setup Started: firefox
+2026-02-22 11:58:16,915 - INFO - ====== WebDriver manager ======
+2026-02-22 11:58:21,266 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:58:21,862 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:58:22,115 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 11:58:44,324 - INFO - ========== STARTING SEARCH PRODUCT TEST ==========
+2026-02-22 11:58:44,325 - INFO - Navigating to Shop page
+2026-02-22 11:58:49,078 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 11:58:49,081 - INFO - Searching for product: Robot
+2026-02-22 11:58:49,153 - INFO - Search submitted successfully
+2026-02-22 11:58:49,169 - INFO - Validating search results presence
+2026-02-22 11:58:59,660 - INFO - No products found - Validating negative scenario
+2026-02-22 11:58:59,701 - INFO - ========== SEARCH PRODUCT TEST COMPLETED ==========
+2026-02-22 11:58:59,703 - INFO - Browser Teardown Started
+2026-02-22 11:59:03,026 - INFO - Browser Closed Successfully
+
+2026-02-22 11:59:03,027 - INFO - ------ Test Finished: test_search_product[data1] ------
+
+2026-02-22 11:59:03,027 - INFO - ------ Test Started: test_add_product_to_cart ------
+2026-02-22 11:59:03,029 - INFO - Browser Setup Started: firefox
+2026-02-22 11:59:03,029 - INFO - ====== WebDriver manager ======
+2026-02-22 11:59:07,299 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:59:07,799 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:59:07,957 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 11:59:26,530 - INFO - ========== STARTING ADD PRODUCT TO CART TEST ==========
+2026-02-22 11:59:26,530 - INFO - Navigating to Shop page
+2026-02-22 11:59:29,812 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 11:59:29,812 - INFO - Adding product to basket
+2026-02-22 11:59:29,900 - INFO - Validating product added to basket (View Basket visible)
+2026-02-22 11:59:29,909 - INFO - View basket button clicked
+2026-02-22 11:59:31,595 - INFO - Validating basket page URL
+2026-02-22 11:59:31,599 - INFO - Validating page title
+2026-02-22 11:59:31,606 - INFO - Page title: Basket – Automation Practice Site
+2026-02-22 11:59:31,608 - INFO - ========== ADD PRODUCT TO CART TEST PASSED ==========
+2026-02-22 11:59:31,609 - INFO - Browser Teardown Started
+2026-02-22 11:59:34,824 - INFO - Browser Closed Successfully
+
+2026-02-22 11:59:34,828 - INFO - ------ Test Finished: test_add_product_to_cart ------
+
+2026-02-22 11:59:34,829 - INFO - ------ Test Started: test_remove_product ------
+2026-02-22 11:59:34,834 - INFO - Browser Setup Started: firefox
+2026-02-22 11:59:34,836 - INFO - ====== WebDriver manager ======
+2026-02-22 11:59:39,126 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:59:39,543 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 11:59:39,705 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 11:59:56,873 - INFO - ========== STARTING REMOVE PRODUCT TEST ==========
+2026-02-22 11:59:56,873 - INFO - Navigating to Shop page
+2026-02-22 11:59:59,020 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 11:59:59,023 - INFO - Adding product to basket
+2026-02-22 11:59:59,241 - INFO - Validating View Basket button visibility
+2026-02-22 11:59:59,986 - INFO - Clicking View Basket button
+2026-02-22 12:00:01,434 - INFO - Current URL after clicking View Basket: https://practice.automationtesting.in/basket/
+2026-02-22 12:00:01,437 - INFO - Removing product from cart
+2026-02-22 12:00:12,754 - INFO - Remaining remove buttons count: 0
+2026-02-22 12:00:22,763 - INFO - Final URL after removal: https://practice.automationtesting.in/basket/
+2026-02-22 12:00:22,763 - INFO - ========== REMOVE PRODUCT TEST PASSED ==========
+2026-02-22 12:00:22,765 - INFO - Browser Teardown Started
+2026-02-22 12:00:26,008 - INFO - Browser Closed Successfully
+
+2026-02-22 12:00:26,010 - INFO - ------ Test Finished: test_remove_product ------
+
+2026-02-22 12:00:26,010 - INFO - ------ Test Started: test_place_order_cod[data0] ------
+2026-02-22 12:00:26,027 - INFO - Browser Setup Started: firefox
+2026-02-22 12:00:26,028 - INFO - ====== WebDriver manager ======
+2026-02-22 12:00:31,126 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:00:31,612 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:00:31,773 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:00:50,791 - INFO - ========== PLACE ORDER LOGIN TEST ==========
+2026-02-22 12:00:50,791 - INFO - Navigating to Shop page
+2026-02-22 12:00:53,975 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:00:53,975 - INFO - Adding product to basket
+2026-02-22 12:00:54,240 - INFO - Viewing basket
+2026-02-22 12:00:56,024 - INFO - Proceeding to checkout
+2026-02-22 12:00:56,157 - INFO - Filling billing details
+2026-02-22 12:00:57,057 - INFO - Selecting country: IN
+2026-02-22 12:00:57,065 - INFO - Entering address details
+2026-02-22 12:00:58,469 - INFO - Entering order notes
+2026-02-22 12:00:58,523 - INFO - Selecting payment method: cod
+2026-02-22 12:00:58,653 - INFO - Clicking Place Order button
+2026-02-22 12:01:00,294 - INFO - Verifying order success message
+2026-02-22 12:01:00,295 - INFO - Waiting for success message
+2026-02-22 12:01:00,316 - INFO - Success Message Received: Thank you. Your order has been received.
+2026-02-22 12:01:00,316 - INFO - ========== PLACE ORDER TEST PASSED ==========
+2026-02-22 12:01:00,318 - INFO - Browser Teardown Started
+2026-02-22 12:01:03,499 - INFO - Browser Closed Successfully
+
+2026-02-22 12:01:03,500 - INFO - ------ Test Finished: test_place_order_cod[data0] ------
+
+2026-02-22 12:01:03,500 - INFO - ------ Test Started: test_place_order_cod[data1] ------
+2026-02-22 12:01:03,502 - INFO - Browser Setup Started: firefox
+2026-02-22 12:01:03,502 - INFO - ====== WebDriver manager ======
+2026-02-22 12:01:07,870 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:01:08,059 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:01:08,222 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:01:26,778 - INFO - ========== PLACE ORDER LOGIN TEST ==========
+2026-02-22 12:01:26,778 - INFO - Navigating to Shop page
+2026-02-22 12:01:29,813 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:01:29,813 - INFO - Adding product to basket
+2026-02-22 12:01:29,975 - INFO - Viewing basket
+2026-02-22 12:01:31,326 - INFO - Proceeding to checkout
+2026-02-22 12:01:31,475 - INFO - Filling billing details
+2026-02-22 12:01:32,330 - INFO - Selecting country: IN
+2026-02-22 12:01:32,355 - INFO - Entering address details
+2026-02-22 12:01:34,199 - INFO - Entering order notes
+2026-02-22 12:01:34,256 - INFO - Selecting payment method: bacs
+2026-02-22 12:01:34,326 - INFO - Clicking Place Order button
+2026-02-22 12:01:35,919 - INFO - Verifying order success message
+2026-02-22 12:01:35,920 - INFO - Waiting for success message
+2026-02-22 12:01:36,004 - INFO - Success Message Received: Thank you. Your order has been received.
+2026-02-22 12:01:36,005 - INFO - ========== PLACE ORDER TEST PASSED ==========
+2026-02-22 12:01:36,009 - INFO - Browser Teardown Started
+2026-02-22 12:01:39,246 - INFO - Browser Closed Successfully
+
+2026-02-22 12:01:39,247 - INFO - ------ Test Finished: test_place_order_cod[data1] ------
+
+2026-02-22 12:01:39,247 - INFO - ------ Test Started: test_sort_products[data0] ------
+2026-02-22 12:01:39,249 - INFO - Browser Setup Started: firefox
+2026-02-22 12:01:39,249 - INFO - ====== WebDriver manager ======
+2026-02-22 12:01:43,617 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:01:44,026 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:01:44,181 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:02:04,045 - INFO - ========== STARTING SORT PRODUCTS TEST ==========
+2026-02-22 12:02:04,046 - INFO - Navigating to Shop page
+2026-02-22 12:02:09,755 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:02:09,758 - INFO - Selecting sort option: menu_order
+2026-02-22 12:02:09,791 - INFO - Current URL after sorting: https://practice.automationtesting.in/shop/
+2026-02-22 12:02:09,791 - INFO - Validating default sorting (no orderby parameter expected)
+2026-02-22 12:02:09,791 - INFO - ========== SORT PRODUCTS TEST PASSED ==========
+2026-02-22 12:02:09,793 - INFO - Browser Teardown Started
+2026-02-22 12:02:13,129 - INFO - Browser Closed Successfully
+
+2026-02-22 12:02:13,130 - INFO - ------ Test Finished: test_sort_products[data0] ------
+
+2026-02-22 12:02:13,130 - INFO - ------ Test Started: test_sort_products[data1] ------
+2026-02-22 12:02:13,131 - INFO - Browser Setup Started: firefox
+2026-02-22 12:02:13,132 - INFO - ====== WebDriver manager ======
+2026-02-22 12:02:17,408 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:02:18,006 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:02:18,258 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:02:36,698 - INFO - ========== STARTING SORT PRODUCTS TEST ==========
+2026-02-22 12:02:36,698 - INFO - Navigating to Shop page
+2026-02-22 12:02:38,761 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:02:38,765 - INFO - Selecting sort option: popularity
+2026-02-22 12:02:40,545 - INFO - Current URL after sorting: https://practice.automationtesting.in/shop/?orderby=popularity
+2026-02-22 12:02:40,545 - INFO - Validating URL contains parameter: orderby=popularity
+2026-02-22 12:02:40,545 - INFO - ========== SORT PRODUCTS TEST PASSED ==========
+2026-02-22 12:02:40,547 - INFO - Browser Teardown Started
+2026-02-22 12:02:43,891 - INFO - Browser Closed Successfully
+
+2026-02-22 12:02:43,892 - INFO - ------ Test Finished: test_sort_products[data1] ------
+
+2026-02-22 12:02:43,892 - INFO - ------ Test Started: test_sort_products[data2] ------
+2026-02-22 12:02:43,894 - INFO - Browser Setup Started: firefox
+2026-02-22 12:02:43,894 - INFO - ====== WebDriver manager ======
+2026-02-22 12:02:48,208 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:02:48,746 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:02:49,007 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:03:08,752 - INFO - ========== STARTING SORT PRODUCTS TEST ==========
+2026-02-22 12:03:08,752 - INFO - Navigating to Shop page
+2026-02-22 12:03:12,349 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:03:12,353 - INFO - Selecting sort option: rating
+2026-02-22 12:03:12,780 - ERROR - Test Failed: test_sort_products[data2]
+2026-02-22 12:03:12,780 - ERROR - Screenshot saved at: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\screenshots\test_sort_products[data2]_20260222_120312.png
+2026-02-22 12:03:12,782 - INFO - Browser Teardown Started
+2026-02-22 12:03:16,006 - INFO - Browser Closed Successfully
+
+2026-02-22 12:03:16,010 - INFO - ------ Test Finished: test_sort_products[data2] ------
+
+2026-02-22 12:03:16,010 - INFO - ------ Test Started: test_sort_products[data3] ------
+2026-02-22 12:03:16,011 - INFO - Browser Setup Started: firefox
+2026-02-22 12:03:16,012 - INFO - ====== WebDriver manager ======
+2026-02-22 12:03:20,746 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:03:21,196 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:03:21,362 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:03:40,511 - INFO - ========== STARTING SORT PRODUCTS TEST ==========
+2026-02-22 12:03:40,511 - INFO - Navigating to Shop page
+2026-02-22 12:03:42,404 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:03:42,406 - INFO - Selecting sort option: date
+2026-02-22 12:03:42,760 - ERROR - Test Failed: test_sort_products[data3]
+2026-02-22 12:03:42,760 - ERROR - Screenshot saved at: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\screenshots\test_sort_products[data3]_20260222_120342.png
+2026-02-22 12:03:42,761 - INFO - Browser Teardown Started
+2026-02-22 12:03:45,954 - INFO - Browser Closed Successfully
+
+2026-02-22 12:03:45,964 - INFO - ------ Test Finished: test_sort_products[data3] ------
+
+2026-02-22 12:03:45,964 - INFO - ------ Test Started: test_sort_products[data4] ------
+2026-02-22 12:03:45,966 - INFO - Browser Setup Started: firefox
+2026-02-22 12:03:45,966 - INFO - ====== WebDriver manager ======
+2026-02-22 12:03:50,892 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:03:51,292 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:03:51,451 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:04:15,934 - INFO - ========== STARTING SORT PRODUCTS TEST ==========
+2026-02-22 12:04:15,934 - INFO - Navigating to Shop page
+2026-02-22 12:04:18,223 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:04:18,226 - INFO - Selecting sort option: price
+2026-02-22 12:04:20,041 - INFO - Current URL after sorting: https://practice.automationtesting.in/shop/?orderby=price
+2026-02-22 12:04:20,041 - INFO - Validating URL contains parameter: orderby=price
+2026-02-22 12:04:20,041 - INFO - ========== SORT PRODUCTS TEST PASSED ==========
+2026-02-22 12:04:20,043 - INFO - Browser Teardown Started
+2026-02-22 12:04:23,322 - INFO - Browser Closed Successfully
+
+2026-02-22 12:04:23,326 - INFO - ------ Test Finished: test_sort_products[data4] ------
+
+2026-02-22 12:04:23,327 - INFO - ------ Test Started: test_sort_products[data5] ------
+2026-02-22 12:04:23,332 - INFO - Browser Setup Started: firefox
+2026-02-22 12:04:23,334 - INFO - ====== WebDriver manager ======
+2026-02-22 12:04:27,586 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:04:28,034 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:04:28,196 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:04:52,950 - INFO - ========== STARTING SORT PRODUCTS TEST ==========
+2026-02-22 12:04:52,950 - INFO - Navigating to Shop page
+2026-02-22 12:04:57,704 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:04:57,706 - INFO - Selecting sort option: price-desc
+2026-02-22 12:04:57,897 - ERROR - Test Failed: test_sort_products[data5]
+2026-02-22 12:04:57,897 - ERROR - Screenshot saved at: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\screenshots\test_sort_products[data5]_20260222_120457.png
+2026-02-22 12:04:57,898 - INFO - Browser Teardown Started
+2026-02-22 12:05:01,205 - INFO - Browser Closed Successfully
+
+2026-02-22 12:05:01,217 - INFO - ------ Test Finished: test_sort_products[data5] ------
+
+2026-02-22 12:05:01,218 - INFO - ------ Test Started: test_findOrdersByUser[data0] ------
+2026-02-22 12:05:01,221 - INFO - Browser Setup Started: firefox
+2026-02-22 12:05:01,223 - INFO - ====== WebDriver manager ======
+2026-02-22 12:05:05,832 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:05:06,235 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:05:06,404 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:05:20,377 - INFO - ========== STARTING FILTER ORDERS BY USER TEST ==========
+2026-02-22 12:05:20,378 - INFO - Clicking on Login/My Account link
+2026-02-22 12:05:22,134 - INFO - Current URL after clicking login: https://practice.automationtesting.in/my-account/
+2026-02-22 12:05:22,137 - INFO - Entering Email: Rani12@gmail.com
+2026-02-22 12:05:22,263 - INFO - Email entered in field: Rani12@gmail.com
+2026-02-22 12:05:22,264 - INFO - Entering Password
+2026-02-22 12:05:22,317 - INFO - Password entered successfully
+2026-02-22 12:05:22,317 - INFO - Selecting Remember Me checkbox
+2026-02-22 12:05:22,405 - INFO - Checkbox selected status: True
+2026-02-22 12:05:22,405 - INFO - Clicking Login button
+2026-02-22 12:05:24,357 - INFO - URL after login: https://practice.automationtesting.in/my-account/
+2026-02-22 12:05:24,364 - INFO - Checking if Orders table is displayed
+2026-02-22 12:05:24,364 - INFO - Checking if Orders table is displayed
+2026-02-22 12:05:28,561 - INFO - Orders table is visible
+2026-02-22 12:05:28,562 - INFO - ========== FILTER ORDERS BY USER TEST PASSED ==========
+2026-02-22 12:05:28,563 - INFO - Browser Teardown Started
+2026-02-22 12:05:31,802 - INFO - Browser Closed Successfully
+
+2026-02-22 12:05:31,803 - INFO - ------ Test Finished: test_findOrdersByUser[data0] ------
+
+2026-02-22 12:05:31,804 - INFO - ------ Test Started: test_findOrdersByUser[data1] ------
+2026-02-22 12:05:31,805 - INFO - Browser Setup Started: firefox
+2026-02-22 12:05:31,805 - INFO - ====== WebDriver manager ======
+2026-02-22 12:05:36,066 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:05:36,526 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:05:36,684 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:05:56,905 - INFO - ========== STARTING FILTER ORDERS BY USER TEST ==========
+2026-02-22 12:05:56,906 - INFO - Clicking on Login/My Account link
+2026-02-22 12:05:58,587 - INFO - Current URL after clicking login: https://practice.automationtesting.in/my-account/
+2026-02-22 12:05:58,589 - INFO - Entering Email: Rani13@gmail.com
+2026-02-22 12:05:58,715 - INFO - Email entered in field: Rani13@gmail.com
+2026-02-22 12:05:58,715 - INFO - Entering Password
+2026-02-22 12:05:58,766 - INFO - Password entered successfully
+2026-02-22 12:05:58,766 - INFO - Selecting Remember Me checkbox
+2026-02-22 12:05:58,853 - INFO - Checkbox selected status: True
+2026-02-22 12:05:58,853 - INFO - Clicking Login button
+2026-02-22 12:06:00,504 - INFO - URL after login: https://practice.automationtesting.in/my-account/
+2026-02-22 12:06:00,507 - INFO - Checking if Orders table is displayed
+2026-02-22 12:06:00,507 - INFO - Checking if Orders table is displayed
+2026-02-22 12:06:12,731 - INFO - No orders / Invalid login - Negative case handled
+2026-02-22 12:06:12,731 - INFO - ========== FILTER ORDERS BY USER TEST PASSED ==========
+2026-02-22 12:06:12,732 - INFO - Browser Teardown Started
+2026-02-22 12:06:15,903 - INFO - Browser Closed Successfully
+
+2026-02-22 12:06:15,904 - INFO - ------ Test Finished: test_findOrdersByUser[data1] ------
+
+2026-02-22 12:06:15,905 - INFO - ------ Test Started: test_filter_product[data0] ------
+2026-02-22 12:06:15,906 - INFO - Browser Setup Started: firefox
+2026-02-22 12:06:15,907 - INFO - ====== WebDriver manager ======
+2026-02-22 12:06:20,119 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:06:20,547 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:06:20,703 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:06:41,002 - INFO - ========== STARTING FILTER PRODUCT BY PRICE TEST ==========
+2026-02-22 12:06:41,002 - INFO - Navigating to Shop page
+2026-02-22 12:06:44,005 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:06:44,013 - INFO - Applying price filter -> Min: 150.0, Max: 300.0
+2026-02-22 12:06:45,979 - INFO - Price filter applied successfully
+2026-02-22 12:06:46,046 - INFO - Number of products displayed after filtering: 4
+2026-02-22 12:06:46,047 - INFO - URL after filtering: https://practice.automationtesting.in/shop/?min_price=150.0&max_price=300.0
+2026-02-22 12:06:46,049 - INFO - ========== FILTER PRODUCT TEST PASSED ==========
+2026-02-22 12:06:46,050 - INFO - Browser Teardown Started
+2026-02-22 12:06:49,279 - INFO - Browser Closed Successfully
+
+2026-02-22 12:06:49,281 - INFO - ------ Test Finished: test_filter_product[data0] ------
+
+2026-02-22 12:06:49,281 - INFO - ------ Test Started: test_filter_product[data1] ------
+2026-02-22 12:06:49,283 - INFO - Browser Setup Started: firefox
+2026-02-22 12:06:49,284 - INFO - ====== WebDriver manager ======
+2026-02-22 12:06:53,523 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:06:53,684 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:06:53,834 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:07:14,960 - INFO - ========== STARTING FILTER PRODUCT BY PRICE TEST ==========
+2026-02-22 12:07:14,960 - INFO - Navigating to Shop page
+2026-02-22 12:07:17,853 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:07:17,856 - INFO - Applying price filter -> Min: 200.0, Max: 400.0
+2026-02-22 12:07:21,829 - INFO - Price filter applied successfully
+2026-02-22 12:07:21,834 - INFO - Number of products displayed after filtering: 4
+2026-02-22 12:07:21,837 - INFO - URL after filtering: https://practice.automationtesting.in/shop/?min_price=200.0&max_price=400.0
+2026-02-22 12:07:21,839 - INFO - ========== FILTER PRODUCT TEST PASSED ==========
+2026-02-22 12:07:21,841 - INFO - Browser Teardown Started
+2026-02-22 12:07:25,347 - INFO - Browser Closed Successfully
+
+2026-02-22 12:07:25,348 - INFO - ------ Test Finished: test_filter_product[data1] ------
+
+2026-02-22 12:07:25,349 - INFO - ------ Test Started: test_filter_product[data2] ------
+2026-02-22 12:07:25,350 - INFO - Browser Setup Started: firefox
+2026-02-22 12:07:25,351 - INFO - ====== WebDriver manager ======
+2026-02-22 12:07:30,043 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:07:30,500 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:07:30,659 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:07:48,873 - INFO - ========== STARTING FILTER PRODUCT BY PRICE TEST ==========
+2026-02-22 12:07:48,873 - INFO - Navigating to Shop page
+2026-02-22 12:07:54,685 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 12:07:54,688 - INFO - Applying price filter -> Min: 250.0, Max: 500.0
+2026-02-22 12:07:56,490 - INFO - Price filter applied successfully
+2026-02-22 12:07:56,787 - INFO - Number of products displayed after filtering: 6
+2026-02-22 12:07:56,790 - INFO - URL after filtering: https://practice.automationtesting.in/shop/?min_price=250.0&max_price=500.0
+2026-02-22 12:07:56,793 - INFO - ========== FILTER PRODUCT TEST PASSED ==========
+2026-02-22 12:07:56,795 - INFO - Browser Teardown Started
+2026-02-22 12:08:00,738 - INFO - Browser Closed Successfully
+
+2026-02-22 12:08:00,739 - INFO - ------ Test Finished: test_filter_product[data2] ------
+
+2026-02-22 12:08:00,739 - INFO - ------ Test Started: test_logout[data0] ------
+2026-02-22 12:08:00,741 - INFO - Browser Setup Started: firefox
+2026-02-22 12:08:00,742 - INFO - ====== WebDriver manager ======
+2026-02-22 12:08:05,685 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:08:06,103 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:08:06,266 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:08:25,500 - INFO - ========== STARTING LOGOUT TEST ==========
+2026-02-22 12:08:25,500 - INFO - Opening My Account page
+2026-02-22 12:08:29,464 - INFO - Performing login before logout
+2026-02-22 12:08:31,961 - INFO - Clicking sign out
+2026-02-22 12:08:36,423 - INFO - ========== LOGOUT TEST PASSED ==========
+2026-02-22 12:08:36,425 - INFO - Browser Teardown Started
+2026-02-22 12:08:39,856 - INFO - Browser Closed Successfully
+
+2026-02-22 12:08:39,857 - INFO - ------ Test Finished: test_logout[data0] ------
+
+2026-02-22 12:08:39,857 - INFO - ------ Test Started: test_open_homepage ------
+2026-02-22 12:08:39,859 - INFO - Browser Setup Started: firefox
+2026-02-22 12:08:39,859 - INFO - ====== WebDriver manager ======
+2026-02-22 12:08:46,695 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:08:47,137 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:08:47,289 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:09:10,175 - INFO - Browser Teardown Started
+2026-02-22 12:09:13,683 - INFO - Browser Closed Successfully
+
+2026-02-22 12:09:13,684 - INFO - ------ Test Finished: test_open_homepage ------
+
+2026-02-22 12:09:13,689 - INFO - ========== TEST SUITE FINISHED ==========
+2026-02-22 12:09:13,689 - INFO - Total Tests Collected: 22

@@ -1,0 +1,92 @@
+1771823928837	geckodriver	INFO	Listening on 127.0.0.1:65130
+1771823931941	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofile1uS3nt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771823932215	Marionette	INFO	Marionette enabled
+1771823932314	Marionette	INFO	Listening on port 65138
+Read port: 65138
+WebDriver BiDi listening on ws://127.0.0.1:65131
+1771823932432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1771823937090	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 92: Script terminated by timeout at:
+M.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:1285
+Vd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:98:1521
+M/this.ie@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:990
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:523
+Mh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:146:321
+Ua@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:51:339
+Pa.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:51:127
+Ta@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:50:483
+Mh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:146:293
+qc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:218
+n.ie@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:523
+qg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:123:515
+Oa.prototype.yc/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:50:315
+qg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:123:524
+qc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:218
+n.ie@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:523
+qg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:123:515
+Oa.prototype.yc/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:50:315
+qg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:123:524
+qc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:218
+n.ie@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:523
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:95:477
+
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1771823951288	Marionette	INFO	Stopped listening on port 65138
+Dynamically enable window occlusion 1
+JavaScript warning: https://practice.automationtesting.in/wp-content/themes/themify-ultra/themify/js/wow.js?version=2.8.8, line 2: Script terminated by timeout at:
+f/<@https://practice.automationtesting.in/wp-content/themes/themify-ultra/themify/js/wow.js?version=2.8.8:2:58
+
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

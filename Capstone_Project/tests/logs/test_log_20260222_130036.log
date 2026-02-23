@@ -1,0 +1,76 @@
+2026-02-22 13:00:36,649 - INFO - ========== TEST SUITE STARTED ==========
+2026-02-22 13:00:37,398 - INFO - Reading login data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 13:00:37,414 - INFO - Total test data rows loaded: 3
+2026-02-22 13:00:37,423 - INFO - Reading login data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 13:00:37,438 - INFO - Total test data rows loaded: 2
+2026-02-22 13:00:37,445 - INFO - Reading login data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 13:00:37,461 - INFO - Total test data rows loaded: 2
+2026-02-22 13:00:37,466 - INFO - Reading place order data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 13:00:37,481 - INFO - Total test data rows loaded: 2
+2026-02-22 13:00:37,487 - INFO - Reading registration data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 13:00:37,500 - INFO - Total test data rows loaded: 1
+2026-02-22 13:00:37,510 - INFO - Reading search data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 13:00:37,526 - INFO - Total test data rows loaded: 2
+2026-02-22 13:00:37,530 - INFO - Reading sort data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 13:00:37,547 - INFO - Total test data rows loaded: 6
+2026-02-22 13:00:37,550 - INFO - ------ Test Started: test_user_registration[data0] ------
+2026-02-22 13:00:37,555 - INFO - Browser Setup Started: chrome
+2026-02-22 13:00:37,555 - INFO - ====== WebDriver manager ======
+2026-02-22 13:00:38,975 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-22 13:00:40,742 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-22 13:00:40,900 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\chromedriver\win64\145.0.7632.77\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-22 13:00:53,289 - INFO - ========== STARTING USER REGISTRATION TEST ==========
+2026-02-22 13:00:53,290 - INFO - Clicking on Sign Up / My Account link
+2026-02-22 13:00:55,060 - INFO - Verifying registration page is loaded
+2026-02-22 13:00:55,118 - INFO - Entering email: Neeraja43@gmail.com
+2026-02-22 13:00:55,537 - INFO - Entering password
+2026-02-22 13:01:06,540 - ERROR - Test Failed: test_user_registration[data0]
+2026-02-22 13:01:06,541 - ERROR - Screenshot saved at: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\screenshots\test_user_registration[data0]_20260222_130106.png
+2026-02-22 13:01:06,589 - INFO - Browser Teardown Started
+2026-02-22 13:01:09,662 - INFO - Browser Closed Successfully
+
+2026-02-22 13:01:09,663 - INFO - ------ Test Finished: test_user_registration[data0] ------
+
+2026-02-22 13:01:09,664 - INFO - ------ Test Started: test_login[data0] ------
+2026-02-22 13:01:09,671 - INFO - Browser Setup Started: chrome
+2026-02-22 13:01:09,673 - INFO - ====== WebDriver manager ======
+2026-02-22 13:01:12,729 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-22 13:01:13,745 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-22 13:01:13,926 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\chromedriver\win64\145.0.7632.77\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-22 13:01:23,916 - INFO - ========== STARTING LOGIN TEST ==========
+2026-02-22 13:01:23,916 - INFO - Opening My Account page
+2026-02-22 13:01:25,796 - INFO - Entering email: Rani12@gmail.com
+2026-02-22 13:01:25,993 - INFO - Entering password
+2026-02-22 13:01:26,124 - INFO - Clicking checkbox
+2026-02-22 13:01:26,342 - INFO - Clicking login button
+2026-02-22 13:01:26,490 - INFO - Validating logged in username
+2026-02-22 13:01:28,067 - INFO - Valid login successful
+2026-02-22 13:01:28,067 - INFO - ========== LOGIN TEST PASSED ==========
+2026-02-22 13:01:28,072 - INFO - Browser Teardown Started
+2026-02-22 13:01:30,605 - INFO - Browser Closed Successfully
+
+2026-02-22 13:01:30,606 - INFO - ------ Test Finished: test_login[data0] ------
+
+2026-02-22 13:01:30,607 - INFO - ------ Test Started: test_login[data1] ------
+2026-02-22 13:01:30,612 - INFO - Browser Setup Started: chrome
+2026-02-22 13:01:30,614 - INFO - ====== WebDriver manager ======
+2026-02-22 13:01:32,857 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-22 13:01:33,059 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-22 13:01:33,249 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\chromedriver\win64\145.0.7632.77\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-22 13:01:42,753 - INFO - ========== STARTING LOGIN TEST ==========
+2026-02-22 13:01:42,754 - INFO - Opening My Account page
+2026-02-22 13:01:44,391 - INFO - Entering email: Rani16@gmail.com
+2026-02-22 13:01:44,581 - INFO - Entering password
+2026-02-22 13:01:44,782 - INFO - Clicking checkbox
+2026-02-22 13:01:44,955 - INFO - Clicking login button
+2026-02-22 13:01:46,885 - INFO - Validating logged in username
+2026-02-22 13:01:56,939 - INFO - Invalid login handled correctly
+2026-02-22 13:01:56,939 - INFO - ========== LOGIN TEST PASSED ==========
+2026-02-22 13:01:56,941 - INFO - Browser Teardown Started
+2026-02-22 13:01:59,434 - INFO - Browser Closed Successfully
+
+2026-02-22 13:01:59,435 - INFO - ------ Test Finished: test_login[data1] ------
+
+2026-02-22 13:01:59,436 - INFO - ------ Test Started: test_search_product[data0] ------
+2026-02-22 13:01:59,438 - INFO - Browser Setup Started: chrome
+2026-02-22 13:01:59,439 - INFO - ====== WebDriver manager ======

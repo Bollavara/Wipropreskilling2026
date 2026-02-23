@@ -1,0 +1,117 @@
+2026-02-22 12:58:24,250 - INFO - ========== TEST SUITE STARTED ==========
+2026-02-22 12:58:25,312 - INFO - Reading login data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 12:58:25,335 - INFO - Total test data rows loaded: 3
+2026-02-22 12:58:25,340 - INFO - Reading login data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 12:58:25,349 - INFO - Total test data rows loaded: 2
+2026-02-22 12:58:25,353 - INFO - Reading login data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 12:58:25,362 - INFO - Total test data rows loaded: 2
+2026-02-22 12:58:25,365 - INFO - Reading place order data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 12:58:25,374 - INFO - Total test data rows loaded: 2
+2026-02-22 12:58:25,377 - INFO - Reading registration data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 12:58:25,385 - INFO - Total test data rows loaded: 1
+2026-02-22 12:58:25,391 - INFO - Reading search data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 12:58:25,400 - INFO - Total test data rows loaded: 2
+2026-02-22 12:58:25,403 - INFO - Reading sort data from Excel file: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\../data\data.xlsx
+2026-02-22 12:58:25,414 - INFO - Total test data rows loaded: 6
+2026-02-22 12:58:25,417 - INFO - ------ Test Started: test_user_registration[data0] ------
+2026-02-22 12:58:25,427 - INFO - Browser Setup Started: firefox
+2026-02-22 12:58:25,428 - INFO - ====== WebDriver manager ======
+2026-02-22 12:58:32,049 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:58:32,516 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:58:32,685 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:58:51,917 - INFO - ========== STARTING USER REGISTRATION TEST ==========
+2026-02-22 12:58:51,918 - INFO - Clicking on Sign Up / My Account link
+2026-02-22 12:58:53,569 - INFO - Verifying registration page is loaded
+2026-02-22 12:58:53,672 - INFO - Entering email: Neeraja43@gmail.com
+2026-02-22 12:58:53,733 - INFO - Entering password
+2026-02-22 12:59:04,361 - ERROR - Test Failed: test_user_registration[data0]
+2026-02-22 12:59:04,361 - ERROR - Screenshot saved at: C:\Users\Neeraja\Desktop\Wipro_Practice\Capstone_Project\tests\screenshots\test_user_registration[data0]_20260222_125904.png
+2026-02-22 12:59:04,362 - INFO - Browser Teardown Started
+2026-02-22 12:59:07,543 - INFO - Browser Closed Successfully
+
+2026-02-22 12:59:07,554 - INFO - ------ Test Finished: test_user_registration[data0] ------
+
+2026-02-22 12:59:07,554 - INFO - ------ Test Started: test_login[data0] ------
+2026-02-22 12:59:07,558 - INFO - Browser Setup Started: firefox
+2026-02-22 12:59:07,559 - INFO - ====== WebDriver manager ======
+2026-02-22 12:59:11,810 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:59:12,220 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:59:12,448 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 12:59:32,547 - INFO - ========== STARTING LOGIN TEST ==========
+2026-02-22 12:59:32,547 - INFO - Opening My Account page
+2026-02-22 12:59:34,560 - INFO - Entering email: Rani12@gmail.com
+2026-02-22 12:59:34,721 - INFO - Entering password
+2026-02-22 12:59:34,798 - INFO - Clicking checkbox
+2026-02-22 12:59:34,917 - INFO - Clicking login button
+2026-02-22 12:59:36,534 - INFO - Validating logged in username
+2026-02-22 12:59:36,583 - INFO - Valid login successful
+2026-02-22 12:59:36,583 - INFO - ========== LOGIN TEST PASSED ==========
+2026-02-22 12:59:36,585 - INFO - Browser Teardown Started
+2026-02-22 12:59:39,826 - INFO - Browser Closed Successfully
+
+2026-02-22 12:59:39,827 - INFO - ------ Test Finished: test_login[data0] ------
+
+2026-02-22 12:59:39,827 - INFO - ------ Test Started: test_login[data1] ------
+2026-02-22 12:59:39,828 - INFO - Browser Setup Started: firefox
+2026-02-22 12:59:39,829 - INFO - ====== WebDriver manager ======
+2026-02-22 12:59:44,077 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:59:44,569 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 12:59:44,729 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 13:00:00,462 - INFO - ========== STARTING LOGIN TEST ==========
+2026-02-22 13:00:00,462 - INFO - Opening My Account page
+2026-02-22 13:00:02,430 - INFO - Entering email: Rani16@gmail.com
+2026-02-22 13:00:02,621 - INFO - Entering password
+2026-02-22 13:00:02,676 - INFO - Clicking checkbox
+2026-02-22 13:00:02,766 - INFO - Clicking login button
+2026-02-22 13:00:07,457 - INFO - Validating logged in username
+2026-02-22 13:00:17,471 - INFO - Invalid login handled correctly
+2026-02-22 13:00:17,471 - INFO - ========== LOGIN TEST PASSED ==========
+2026-02-22 13:00:17,473 - INFO - Browser Teardown Started
+2026-02-22 13:00:20,581 - INFO - Browser Closed Successfully
+
+2026-02-22 13:00:20,581 - INFO - ------ Test Finished: test_login[data1] ------
+
+2026-02-22 13:00:20,582 - INFO - ------ Test Started: test_search_product[data0] ------
+2026-02-22 13:00:20,583 - INFO - Browser Setup Started: firefox
+2026-02-22 13:00:20,584 - INFO - ====== WebDriver manager ======
+2026-02-22 13:00:25,276 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 13:00:25,691 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 13:00:25,842 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 13:00:40,296 - INFO - ========== STARTING SEARCH PRODUCT TEST ==========
+2026-02-22 13:00:40,296 - INFO - Navigating to Shop page
+2026-02-22 13:00:42,411 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 13:00:42,419 - INFO - Searching for product: Selenium Ruby
+2026-02-22 13:00:43,831 - INFO - Search submitted successfully
+2026-02-22 13:00:43,891 - INFO - Validating search results presence
+2026-02-22 13:00:44,969 - INFO - Search results found
+2026-02-22 13:00:48,729 - INFO - ========== SEARCH PRODUCT TEST COMPLETED ==========
+2026-02-22 13:00:48,731 - INFO - Browser Teardown Started
+2026-02-22 13:00:52,435 - INFO - Browser Closed Successfully
+
+2026-02-22 13:00:52,436 - INFO - ------ Test Finished: test_search_product[data0] ------
+
+2026-02-22 13:00:52,436 - INFO - ------ Test Started: test_search_product[data1] ------
+2026-02-22 13:00:52,439 - INFO - Browser Setup Started: firefox
+2026-02-22 13:00:52,442 - INFO - ====== WebDriver manager ======
+2026-02-22 13:00:59,765 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 13:01:00,195 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 13:01:00,357 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-22 13:01:27,241 - INFO - ========== STARTING SEARCH PRODUCT TEST ==========
+2026-02-22 13:01:27,242 - INFO - Navigating to Shop page
+2026-02-22 13:01:29,618 - INFO - Current URL after navigation: https://practice.automationtesting.in/shop/
+2026-02-22 13:01:29,625 - INFO - Searching for product: Robot
+2026-02-22 13:01:30,242 - INFO - Search submitted successfully
+2026-02-22 13:01:30,402 - INFO - Validating search results presence
+2026-02-22 13:01:40,829 - INFO - No products found - Validating negative scenario
+2026-02-22 13:01:40,846 - INFO - ========== SEARCH PRODUCT TEST COMPLETED ==========
+2026-02-22 13:01:40,848 - INFO - Browser Teardown Started
+2026-02-22 13:01:45,469 - INFO - Browser Closed Successfully
+
+2026-02-22 13:01:45,471 - INFO - ------ Test Finished: test_search_product[data1] ------
+
+2026-02-22 13:01:45,471 - INFO - ------ Test Started: test_add_product_to_cart ------
+2026-02-22 13:01:45,474 - INFO - Browser Setup Started: firefox
+2026-02-22 13:01:45,476 - INFO - ====== WebDriver manager ======
+2026-02-22 13:01:51,995 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 13:01:53,623 - INFO - Get LATEST geckodriver version for 147.0 firefox
+2026-02-22 13:01:55,448 - INFO - Driver [C:\Users\Neeraja\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache

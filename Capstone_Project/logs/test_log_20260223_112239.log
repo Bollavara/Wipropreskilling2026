@@ -1,0 +1,149 @@
+2026-02-23 11:22:39,398 - INFO - ========== TEST SUITE STARTED ==========
+2026-02-23 11:22:39,656 - INFO - Reading login data from Excel file: C:\Users\HP\PyCharmMiscProject\Capstone_Project\tests\../data\data.xlsx
+2026-02-23 11:22:39,663 - INFO - Total test data rows loaded: 3
+2026-02-23 11:22:39,667 - INFO - Reading login data from Excel file: C:\Users\HP\PyCharmMiscProject\Capstone_Project\tests\../data\data.xlsx
+2026-02-23 11:22:39,673 - INFO - Total test data rows loaded: 2
+2026-02-23 11:22:39,678 - INFO - Reading login data from Excel file: C:\Users\HP\PyCharmMiscProject\Capstone_Project\tests\../data\data.xlsx
+2026-02-23 11:22:39,694 - INFO - Total test data rows loaded: 2
+2026-02-23 11:22:39,697 - INFO - Reading place order data from Excel file: C:\Users\HP\PyCharmMiscProject\Capstone_Project\tests\../data\data.xlsx
+2026-02-23 11:22:39,703 - INFO - Total test data rows loaded: 2
+2026-02-23 11:22:39,706 - INFO - Reading registration data from Excel file: C:\Users\HP\PyCharmMiscProject\Capstone_Project\tests\../data\data.xlsx
+2026-02-23 11:22:39,712 - INFO - Total test data rows loaded: 1
+2026-02-23 11:22:39,717 - INFO - Reading search data from Excel file: C:\Users\HP\PyCharmMiscProject\Capstone_Project\tests\../data\data.xlsx
+2026-02-23 11:22:39,724 - INFO - Total test data rows loaded: 2
+2026-02-23 11:22:39,727 - INFO - Reading sort data from Excel file: C:\Users\HP\PyCharmMiscProject\Capstone_Project\tests\../data\data.xlsx
+2026-02-23 11:22:39,733 - INFO - Total test data rows loaded: 6
+2026-02-23 11:22:39,735 - INFO - ------ Test Started: test_user_registration[data0] ------
+2026-02-23 11:22:39,737 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:39,738 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:40,530 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:40,823 - INFO - ------ Test Finished: test_user_registration[data0] ------
+
+2026-02-23 11:22:40,823 - INFO - ------ Test Started: test_login[data0] ------
+2026-02-23 11:22:40,824 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:40,825 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:41,625 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:41,709 - INFO - ------ Test Finished: test_login[data0] ------
+
+2026-02-23 11:22:41,710 - INFO - ------ Test Started: test_login[data1] ------
+2026-02-23 11:22:41,711 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:41,711 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:42,490 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:42,574 - INFO - ------ Test Finished: test_login[data1] ------
+
+2026-02-23 11:22:42,575 - INFO - ------ Test Started: test_search_product[data0] ------
+2026-02-23 11:22:42,576 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:42,577 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:43,346 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:43,431 - INFO - ------ Test Finished: test_search_product[data0] ------
+
+2026-02-23 11:22:43,431 - INFO - ------ Test Started: test_search_product[data1] ------
+2026-02-23 11:22:43,432 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:43,432 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:44,223 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:44,308 - INFO - ------ Test Finished: test_search_product[data1] ------
+
+2026-02-23 11:22:44,309 - INFO - ------ Test Started: test_add_product_to_cart ------
+2026-02-23 11:22:44,310 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:44,311 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:45,082 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:45,211 - INFO - ------ Test Finished: test_add_product_to_cart ------
+
+2026-02-23 11:22:45,211 - INFO - ------ Test Started: test_remove_product ------
+2026-02-23 11:22:45,212 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:45,213 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:45,992 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:46,081 - INFO - ------ Test Finished: test_remove_product ------
+
+2026-02-23 11:22:46,081 - INFO - ------ Test Started: test_place_order_cod[data0] ------
+2026-02-23 11:22:46,082 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:46,083 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:46,876 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:46,972 - INFO - ------ Test Finished: test_place_order_cod[data0] ------
+
+2026-02-23 11:22:46,972 - INFO - ------ Test Started: test_place_order_cod[data1] ------
+2026-02-23 11:22:46,973 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:46,973 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:47,789 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:47,878 - INFO - ------ Test Finished: test_place_order_cod[data1] ------
+
+2026-02-23 11:22:47,879 - INFO - ------ Test Started: test_sort_products[data0] ------
+2026-02-23 11:22:47,880 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:47,881 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:48,767 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:48,948 - INFO - ------ Test Finished: test_sort_products[data0] ------
+
+2026-02-23 11:22:48,948 - INFO - ------ Test Started: test_sort_products[data1] ------
+2026-02-23 11:22:48,950 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:48,950 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:50,028 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:50,278 - INFO - ------ Test Finished: test_sort_products[data1] ------
+
+2026-02-23 11:22:50,278 - INFO - ------ Test Started: test_sort_products[data2] ------
+2026-02-23 11:22:50,280 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:50,280 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:51,164 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:51,317 - INFO - ------ Test Finished: test_sort_products[data2] ------
+
+2026-02-23 11:22:51,317 - INFO - ------ Test Started: test_sort_products[data3] ------
+2026-02-23 11:22:51,319 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:51,320 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:52,103 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:52,307 - INFO - ------ Test Finished: test_sort_products[data3] ------
+
+2026-02-23 11:22:52,308 - INFO - ------ Test Started: test_sort_products[data4] ------
+2026-02-23 11:22:52,309 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:52,310 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:53,117 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:53,391 - INFO - ------ Test Finished: test_sort_products[data4] ------
+
+2026-02-23 11:22:53,391 - INFO - ------ Test Started: test_sort_products[data5] ------
+2026-02-23 11:22:53,392 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:53,393 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:54,300 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:54,494 - INFO - ------ Test Finished: test_sort_products[data5] ------
+
+2026-02-23 11:22:54,495 - INFO - ------ Test Started: test_findOrdersByUser[data0] ------
+2026-02-23 11:22:54,498 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:54,498 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:55,271 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:55,507 - INFO - ------ Test Finished: test_findOrdersByUser[data0] ------
+
+2026-02-23 11:22:55,507 - INFO - ------ Test Started: test_findOrdersByUser[data1] ------
+2026-02-23 11:22:55,509 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:55,509 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:56,351 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:56,568 - INFO - ------ Test Finished: test_findOrdersByUser[data1] ------
+
+2026-02-23 11:22:56,568 - INFO - ------ Test Started: test_filter_product[data0] ------
+2026-02-23 11:22:56,569 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:56,570 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:57,559 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:57,799 - INFO - ------ Test Finished: test_filter_product[data0] ------
+
+2026-02-23 11:22:57,800 - INFO - ------ Test Started: test_filter_product[data1] ------
+2026-02-23 11:22:57,802 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:57,803 - INFO - ====== WebDriver manager ======
+2026-02-23 11:22:58,887 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:22:59,121 - INFO - ------ Test Finished: test_filter_product[data1] ------
+
+2026-02-23 11:22:59,121 - INFO - ------ Test Started: test_filter_product[data2] ------
+2026-02-23 11:22:59,122 - INFO - Browser Setup Started: edge
+2026-02-23 11:22:59,123 - INFO - ====== WebDriver manager ======
+2026-02-23 11:23:00,164 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:23:00,447 - INFO - ------ Test Finished: test_filter_product[data2] ------
+
+2026-02-23 11:23:00,448 - INFO - ------ Test Started: test_logout[data0] ------
+2026-02-23 11:23:00,449 - INFO - Browser Setup Started: edge
+2026-02-23 11:23:00,450 - INFO - ====== WebDriver manager ======
+2026-02-23 11:23:01,488 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:23:01,690 - INFO - ------ Test Finished: test_logout[data0] ------
+
+2026-02-23 11:23:01,690 - INFO - ------ Test Started: test_open_homepage ------
+2026-02-23 11:23:01,692 - INFO - Browser Setup Started: edge
+2026-02-23 11:23:01,693 - INFO - ====== WebDriver manager ======
+2026-02-23 11:23:02,803 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-23 11:23:02,919 - INFO - ------ Test Finished: test_open_homepage ------
+
+2026-02-23 11:23:02,920 - INFO - ========== TEST SUITE FINISHED ==========
+2026-02-23 11:23:02,921 - INFO - Total Tests Collected: 22

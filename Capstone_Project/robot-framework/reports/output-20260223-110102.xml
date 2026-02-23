@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.14.0 on win32)" generated="2026-02-23T11:01:02.916771" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot Framework-edge" source="C:\Users\HP\PyCharmMiscProject\Capstone_Project\robot-framework\tests">
+<suite id="s1-s1" name="00 User Registration" source="C:\Users\HP\PyCharmMiscProject\Capstone_Project\robot-framework\tests\00_user_registration.robot">
+<kw name="Open Application" owner="common" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-23T11:01:03.136795" level="INFO">Opening browser 'edge' to base url 'https://practice.automationtesting.in/'.</msg>
+<arg>${URL}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-23T11:01:03.136392" elapsed="14.267523"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-23T11:01:17.404231" elapsed="0.054991"/>
+</kw>
+<kw name="Set Selenium Timeout" owner="SeleniumLibrary">
+<arg>${TIMEOUT}</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" start="2026-02-23T11:01:17.459537" elapsed="0.001426"/>
+</kw>
+<status status="PASS" start="2026-02-23T11:01:03.135526" elapsed="14.325590"/>
+</kw>
+<test id="s1-s1-t1" name="User1" line="12">
+<kw name="Register User">
+<if>
+<branch type="IF" condition="'${EXPECTED}' != 'PASS'">
+<kw name="Skip" owner="BuiltIn">
+<arg>Not registration user</arg>
+<doc>Skips the rest of the current test.</doc>
+<status status="NOT RUN" start="2026-02-23T11:01:17.463352" elapsed="0.000051"/>
+</kw>
+<status status="NOT RUN" start="2026-02-23T11:01:17.463012" elapsed="0.000484"/>
+</branch>
+<status status="PASS" start="2026-02-23T11:01:17.462970" elapsed="0.000587"/>
+</if>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-02-23T11:01:17.463842" level="INFO">Opening url 'https://practice.automationtesting.in/my-account/'</msg>
+<arg>https://practice.automationtesting.in/my-account/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-02-23T11:01:17.463680" elapsed="2.740796"/>
+</kw>
+<kw name="Handle Ads Popup" owner="common">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-23T11:01:20.206271" level="INFO">Clicking element 'css:button[aria-label='Close']'.</msg>
+<msg time="2026-02-23T11:01:20.447722" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-23T11:01:20.447945" level="FAIL">Element with locator 'css:button[aria-label='Close']' not found.</msg>
+<arg>css:button[aria-label='Close']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-02-23T11:01:20.205677" elapsed="0.245052">Element with locator 'css:button[aria-label='Close']' not found.</status>
+</kw>
+<arg>Click Element</arg>
+<arg>css:button[aria-label='Close']</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-23T11:01:20.205383" elapsed="0.245478"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-23T11:01:20.451624" level="INFO">Executing JavaScript:
+document.body.classList.remove('modal-open')
+Without any arguments.</msg>
+<arg>document.body.classList.remove('modal-open')</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-23T11:01:20.451341" elapsed="0.005209"/>
+</kw>
+<arg>Execute Javascript</arg>
+<arg>document.body.classList.remove('modal-open')</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-23T11:01:20.451116" elapsed="0.005565"/>
+</kw>
+<status status="PASS" start="2026-02-23T11:01:20.204880" elapsed="0.251872"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>id=reg_email</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-02-23T11:01:20.456871" elapsed="0.007404"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-23T11:01:20.464651" level="INFO">Typing text 'testuser0036@test.com' into text field 'id=reg_email'.</msg>
+<arg>id=reg_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-23T11:01:20.464437" elapsed="0.097351"/>
+</kw>
+<kw name="Textfield Value Should Be" owner="SeleniumLibrary">
+<msg time="2026-02-23T11:01:20.589641" level="INFO">Content of text field 'id=reg_email' is 'testuser0036@test.com'.</msg>
+<arg>id=reg_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Verifies text field ``locator`` has exactly text ``expected``.</doc>
+<status status="PASS" start="2026-02-23T11:01:20.562028" elapsed="0.027694"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-23T11:01:20.590058" level="INFO">Typing text 'Omkar@2003' into text field 'id=reg_password'.</msg>
+<arg>id=reg_password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-23T11:01:20.589872" elapsed="0.105070"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-02-23T11:01:20.711024" level="INFO">Element 'id=reg_password' is displayed.</msg>
+<arg>id=reg_password</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-23T11:01:20.695170" elapsed="0.015940"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-23T11:01:20.711573" level="INFO">Executing JavaScript:
+document.querySelector('input[name="register"]').click()
+Without any arguments.</msg>
+<arg>document.querySelector('input[name="register"]').click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-23T11:01:20.711259" elapsed="4.316800"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Check Registration Result">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<errors>
+<msg time="2026-02-23T11:01:28.494307" level="ERROR">Execution stopped by user.</msg>
+</errors>
+</robot>

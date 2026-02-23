@@ -1,0 +1,186 @@
+1771823993330	geckodriver	INFO	Listening on 127.0.0.1:52835
+1771823996431	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52836" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilerHilNF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771823996704	Marionette	INFO	Marionette enabled
+1771823996803	Marionette	INFO	Listening on port 52843
+Read port: 52843
+WebDriver BiDi listening on ws://127.0.0.1:52836
+1771823996905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1771824013582	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA, line 1272: Script terminated by timeout at:
+__IntegralASConfig.initialize/ce.encodeInvalidUrlChars@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:37238
+h@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:72129
+__IntegralASConfig.initialize/ue.prototype.stringify/<@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:33050
+__IntegralASConfig.initialize/ue.prototype.each@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:32795
+__IntegralASConfig.initialize/ue.prototype.stringify@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:33023
+v@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:72225
+toString@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:72716
+xt@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:88567
+a@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:83957
+__IntegralASConfig.initialize/st/push/e[e.length]@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:66931
+__IntegralASConfig.initialize/st/run/<@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:67015
+__IntegralASConfig.initialize/ue.prototype.each@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:32740
+run@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:66993
+r@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:65858
+trigger@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:66215
+m@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:97517
+h@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:97793
+__IntegralASConfig.initialize/st/push/e[e.length]@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:66931
+__IntegralASConfig.initialize/st/run/<@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:67015
+__IntegralASConfig.initialize/ue.prototype.each@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:32740
+run@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:66993
+r@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:65858
+trigger@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:66215
+p@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:208347
+__IntegralASConfig.initialize/st/push/e[e.length]@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:66931
+__IntegralASConfig.initialize/st/run/<@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:67015
+__IntegralASConfig.initialize/ue.prototype.each@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:32740
+run@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:66993
+r@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:65858
+trigger@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:66215
+__IntegralASConfig.initialize/creator/l/<@https://fw.adsafeprotected.com/rjss/st/2400405/90803008/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/shop/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0gYIk-fJyKqjyHw1FAA6MNA:1272:208248
+
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1771824020412	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1771824021471	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: resource://gre/actors/FormHandlerChild.sys.mjs, line 103: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'FormHandler' has been destroyed
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 4: Script terminated by timeout at:
+x@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:4:383
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:295
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:709
+M.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:1364
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:356
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:709
+M.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:1364
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:356
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:709
+n.nd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:113
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:628
+jf/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:104:1025
+M/this.nd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:1148
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:628
+n.nd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:97
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:628
+n.nd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:97
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:628
+n.nd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:97
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:628
+Mh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:146:431
+Ua@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:51:339
+Pa.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:51:127
+Ta@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:50:483
+Mh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:146:293
+qc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:218
+n.ie@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:523
+qg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:123:515
+Oa.prototype.yc/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:50:315
+qg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:123:524
+qc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:218
+n.ie@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:523
+qg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:123:515
+Oa.prototype.yc/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:50:315
+qg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:123:524
+qc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:218
+n.ie@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:523
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:95:477
+
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1771824028672	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: moz-src:///browser/components/search/SearchOneOffs.sys.mjs, line 392: TypeError: aEngine.getIconURL is not a function
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: resource://gre/actors/FormHandlerChild.sys.mjs, line 103: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'FormHandler' has been destroyed
+JavaScript error: resource://gre/actors/FormHandlerChild.sys.mjs, line 103: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'FormHandler' has been destroyed
+1771824030520	Marionette	INFO	Stopped listening on port 52843
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":29,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":28,"lineNumber":273,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":28,"lineNumber":224,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch/<","sourceId":696,"lineNumber":569,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch","sourceId":696,"lineNumber":544,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"request","sourceId":696,"lineNumber":634,"columnNumber":33,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"execute","sourceId":696,"lineNumber":2643,"columnNumber":36,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"getData","sourceId":696,"lineNumber":1119,"columnNumber":40,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":26,"lineNumber":781,"columnNumber":54,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:781:54\n","nativeSavedFrame":{}},"formattedStack":"getData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:781:54\n","nativeSavedFrame":{}},"formattedStack":"execute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:781:54\n","nativeSavedFrame":{}},"formattedStack":"request@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:781:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:781:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:781:54\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:224:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:781:54\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:781:54\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:781:54\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:273:15|fetch@resource://services-settings/Utils.sys.mjs:224:12|timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12|timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12|request@resource://services-common/kinto-http-client.sys.mjs:634:33|execute@resource://services-common/kinto-http-client.sys.mjs:2643:36|getData@resource://services-common/kinto-http-client.sys.mjs:1119:40|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:781:54|
+  - prototype Object
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/search-categorization sync interrupted by shutdown
+console.warn: services.settings: main/third-party-cookie-blocking-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: main/urlbar-persisted-search-terms sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.error: ({details:{id:"8b878038-f209-6179-d981-2ebf0a5c0214", last_modified:1743513175300, bucket:"main", collection:"url-parser-default-unknown-schemes-interventions", host:"firefox.settings.services.mozilla.com"}})

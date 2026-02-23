@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.14.0 on win32)" generated="2026-02-22T08:43:59.350592" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot Framework" source="C:\Users\HP\PyCharmMiscProject\Capstone_Project\robot-framework\tests">
+<suite id="s1-s1" name="00 User Registration" source="C:\Users\HP\PyCharmMiscProject\Capstone_Project\robot-framework\tests\00_user_registration.robot">
+<kw name="Open Application" owner="common" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-22T08:43:59.824006" level="INFO">Opening browser 'chrome' to base url 'https://practice.automationtesting.in/'.</msg>
+<errors>
+<msg time="2026-02-22T08:44:02.759633" level="ERROR">Execution stopped by user.</msg>
+</errors>
+</robot>

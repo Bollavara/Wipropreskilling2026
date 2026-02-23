@@ -1,0 +1,50 @@
+1771827192778	geckodriver	INFO	Listening on 127.0.0.1:52983
+1771827195815	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52984" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileNNYTzf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771827196186	Marionette	INFO	Marionette enabled
+1771827196292	Marionette	INFO	Listening on port 52991
+Read port: 52991
+WebDriver BiDi listening on ws://127.0.0.1:52984
+1771827196403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1771827201389	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://practice.automationtesting.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://practice.automationtesting.in."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 90: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1771827205480	Marionette	INFO	Stopped listening on port 52991
+Dynamically enable window occlusion 1
+JavaScript warning: https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU, line 1272: Script terminated by timeout at:
+ce@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:32247
+__IntegralASConfig.initialize/nt/i/<@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:60414
+__IntegralASConfig.initialize/ue.prototype.each@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:32795
+i@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:60383
+__IntegralASConfig.initialize/nt/<@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:60255
+__IntegralASConfig.initialize/st/push/e[e.length]@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:66931
+__IntegralASConfig.initialize/st/run/<@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:67015
+__IntegralASConfig.initialize/ue.prototype.each@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:32740
+run@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:66993
+r@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:65858
+trigger@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:66215
+registerLocation@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:129465
+E@https://fw.adsafeprotected.com/rjss/st/2400405/89577798/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020557686&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22297175181&bidurl=https://practice.automationtesting.in/my-account/&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0hfbNI3A09w707whdy0zEsU:1272:206239
+
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

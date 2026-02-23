@@ -1,0 +1,2 @@
+*** Test Cases ***;${EMAIL};${PASSWORD};${FIRSTNAME};${LASTNAME};${PHONE};${CITY};${POSTCODE};${EXPECTED}
+User1;testuser0043@test.com;Harika@3703;Harika;Reddy;9876543210;Hyderabad;500001;PASS
